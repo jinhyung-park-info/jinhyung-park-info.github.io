@@ -10,16 +10,16 @@ redirect_from:
 
 News
 ------
-**Nov 2021** 1 paper has advanced to the second phase of the 2-phase review process of AAAI-22
-**Sep 2021** 1 paper has been submitted to AAAI-22
-**Aug 2021** Received 2 Bachelor's Degree (Bachelor of Science in Engineering - Computer Science, Bachelor of Science in Engineering - Urban Planning & Engineering) from Yonsei University, @Seoul
-**Jul 2021** Accepted to NAVER as a Software Developer (deffered the offer to 2022)
-**Jul 2021** Received and enrolled in the 2021 NC Fellowship - Neural Graphics Track
-**Jun 2020** Started to work as a research intern in the Computer Graphics Laboratory at Yonsei University, @Seoul
-**May 2020** Participated in the 2020 NAVER CAMPUS HACKDAY
-**Apr 2020** Finished my exchange program at the University of Toronto, @Toronto
-**Sep 2019** Started my exchange program at the University of Toronto, @Toronto
-**Jun 2019** Started my double major as Computer Science at Yonsei University, @Seoul
+**Nov 2021** 1 paper has advanced to the second phase of the 2-phase review process of AAAI-22 \\ 
+**Sep 2021** 1 paper has been submitted to AAAI-22 \\
+**Aug 2021** Received 2 Bachelor's Degree (Bachelor of Science in Engineering - Computer Science, Bachelor of Science in Engineering - Urban Planning & Engineering) from Yonsei University, @Seoul \\
+**Jul 2021** Accepted to NAVER as a Software Developer (deffered the offer to 2022) \\
+**Jul 2021** Received and enrolled in the 2021 NC Fellowship - Neural Graphics Track \\
+**Jun 2020** Started to work as a research intern in the Computer Graphics Laboratory at Yonsei University, @Seoul \\
+**May 2020** Participated in the 2020 NAVER CAMPUS HACKDAY \\
+**Apr 2020** Finished my exchange program at the University of Toronto, @Toronto \\
+**Sep 2019** Started my exchange program at the University of Toronto, @Toronto \\
+**Jun 2019** Started my double major as Computer Science at Yonsei University, @Seoul \\
 
 About Me
 ------
