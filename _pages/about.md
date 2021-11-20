@@ -33,7 +33,7 @@ Physical simulation of synthetic and real-world deformable objects (under review
 
 Education
 ------
-**Yonsei University** (Seoul, Korea) &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; Mar 2015 - Aug 2021 <br/>
+**Yonsei University** (Seoul, Korea) &nbsp; &nbsp; | &nbsp; &nbsp; Mar 2015 - Aug 2021 <br/>
 Bachelor of Science in Engineering (Major : Computer Science) <br/>
 Bachelor of Science in Engineering (Major : Urban Planning & Engineering) <br/>
 - National Science and Technology Scholarship (full tuition granted for students with top 3% admission score) <br/>
@@ -41,17 +41,17 @@ Bachelor of Science in Engineering (Major : Urban Planning & Engineering) <br/>
 -    GPA     : 4.09 / 4.3 <br/>
 - Class Rank : 1 / 33 <br/>
 
-**University of Toronto** (Toronto, Canada) &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; Sep 2019 - Apr 2020 <br/>
+**University of Toronto** (Toronto, Canada) &nbsp; &nbsp; | &nbsp; &nbsp; Sep 2019 - Apr 2020 <br/>
 Exchange Student
 Faculty of Arts and Science - Computer Science <br/>
 - Major GPA  : 3.80 / 4.0 <br/>
 
 Work Experience
 ------  
-**NAVER** (Seoul, Korea) &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; Dec 2020 - (tentative) <br/>
+**NAVER** (Seoul, Korea) &nbsp; &nbsp; | &nbsp; &nbsp; Dec 2020 - (tentative) <br/>
 Software Developer <br/>
 
-**Republic of Korea Army** (Dongducheon, Korea) &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; Mar 2017 - Dec 2018 <br/>
+**Republic of Korea Army** (Dongducheon, Korea) &nbsp; &nbsp; | &nbsp; &nbsp; Mar 2017 - Dec 2018 <br/>
 Senior KATUSA (Korean Augmentation to the United States of Army) | May 2018 - Dec 2019 <br/>
 Liaison Specialist | Mar 2017 - May 2018 <br/>
 
