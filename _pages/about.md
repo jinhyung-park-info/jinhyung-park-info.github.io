@@ -15,14 +15,14 @@ News
 **Aug 2021** Received 2 Bachelor Degrees from _Yonsei University_, @Seoul <br/>
 **Jul 2021** Accepted to _NAVER_ as a Software Developer (deffered the offer to 2022) <br/>
 **Jul 2021** Received and enrolled in the _2021 NC Fellowship - Neural Graphics Track_ <br/>
-**Jun 2020** Started to work as a research intern in the _Computer Graphics and Applications Laboratory_ at _Yonsei University_, @Seoul <br/>
+**Jun 2020** Started to work as a research intern in the _Computer Graphics and Applications Lab_ at _Yonsei University_, @Seoul <br/>
 **Apr 2020** Finished my exchange program at the _University of Toronto_, @Toronto <br/>
 **Sep 2019** Started my exchange program at the _University of Toronto_, @Toronto <br/>
 **Jun 2019** Started my double major as Computer Science at _Yonsei University_, @Seoul <br/>
 
 About Me
 ------
-I am a research intern at the [Computer Graphics and Applications Laboratory](http://cga.yonsei.ac.kr/), [Yonsei University](https://www.yonsei.ac.kr/en_sc/), Seoul, Korea, and will be working as a software developer at [NAVER](https://www.navercorp.com/en) starting from December 2020. My primary research interest lies in the intersection of computer graphics and computer vision. I am particularly interested in physical simulation, animation, and computational photography, although I believe my research interest will evolve during my time pursuing advanced studies. My ultimate goal is to develop frameworks that can bring life to artistic works and help recreate the visual world around us.
+I am a research intern at the [Computer Graphics and Applications Lab](http://cga.yonsei.ac.kr/), [Yonsei University](https://www.yonsei.ac.kr/en_sc/), Seoul, Korea, and will be working as a software developer at [NAVER](https://www.navercorp.com/en) starting from December 2020. My primary research interest lies in the intersection of computer graphics and computer vision. I am particularly interested in physical simulation, animation, and computational photography, although I believe my research interest will evolve during my time pursuing advanced studies. My ultimate goal is to develop frameworks that can bring life to artistic works and help recreate the visual world around us.
 
 **Research Interest** <br/>
 Physics-based simulation, Animation, Computational Photography <br/>
