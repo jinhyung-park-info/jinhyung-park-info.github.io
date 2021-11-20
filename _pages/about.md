@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Jinhyung Park"
+title: ""
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -37,8 +37,8 @@ Education
 **Yonsei University**  |  Mar 2015 - Aug 2021 <br/>
 Bachelor of Science in Engineering (Major : Computer Science) <br/>
 Bachelor of Science in Engineering (Major : Urban Planning & Engineering) <br/>
-- National Science and Technology Scholarship (granted with students with top 3% admission score) <br/>
-- Admission and Graduation with highest distinction<br/>
+- National Science and Technology Scholarship (full tuition granted for students with top 3% admission score) <br/>
+- Admission and graduation with highest distinction <br/>
 -    GPA     : 4.09 / 4.3 <br/>
 - Class Rank : 1 / 33 <br/>
 
