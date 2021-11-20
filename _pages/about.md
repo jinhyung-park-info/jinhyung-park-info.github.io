@@ -26,7 +26,7 @@ About Me
 I am a research intern at the Computer Graphics and Applications Laboratory, Yonsei University, Seoul, Korea, and will be working as a software developer at NAVER starting from December 2020. My primary research interest lies in the intersection of computer graphics and computer vision. While I believe my research interest will evolve during my time pursuing advanced studies, I am particularly interested in physical simulation, animation, and computational photography. My ultimate goal is to develop frameworks that can help artists bring life to artistic works and move people by recreating the visual world around us. Feel free to contact me via jh9604@yonsei.ac.kr for any project collaboration.
 
 **Research Interest** <br/>
-Physics-based simulation, Animation, Computational Photography <br/><br/>
+Physics-based simulation, Animation, Computational Photography <br/>
 
 **Ongoing**<br/>
 Physical simulation of synthetic and real-world deformable objects (under review) <br/>
