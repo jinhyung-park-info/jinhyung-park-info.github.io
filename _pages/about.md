@@ -22,7 +22,7 @@ News
 
 About Me
 ------
-I am a research intern at the [Computer Graphics and Applications Laboratory](http://cga.yonsei.ac.kr/), [Yonsei University](https://www.yonsei.ac.kr/en_sc/), Seoul, Korea, and will be working as a software developer at [NAVER](https://www.navercorp.com/en) starting from December 2020. My primary research interest lies in the intersection of computer graphics and computer vision. While I believe my research interest will evolve during my time pursuing advanced studies, I am particularly interested in physical simulation, animation, and computational photography. My ultimate goal is to develop frameworks that can help artists bring life to artistic works and move people by recreating the visual world around us. Feel free to contact me via jh9604@yonsei.ac.kr for any project collaboration.
+I am a research intern at the [Computer Graphics and Applications Laboratory](http://cga.yonsei.ac.kr/), [Yonsei University](https://www.yonsei.ac.kr/en_sc/), Seoul, Korea, and will be working as a software developer at [NAVER](https://www.navercorp.com/en) starting from December 2020. My primary research interest lies in the intersection of computer graphics and computer vision. I am particularly interested in physical simulation, animation, and computational photography, although I believe my research interest will evolve during my time pursuing advanced studies. My ultimate goal is to develop frameworks that can bring life to artistic works and help recreate the visual world around us.
 
 **Research Interest** <br/>
 Physics-based simulation, Animation, Computational Photography <br/>
