@@ -34,7 +34,7 @@ Physical simulation of synthetic and real-world deformable objects (under review
 
 Education
 ------
-**Yonsei University** $~$$~$$~$$~$ |  Mar 2015 - Aug 2021 <br/>
+**Yonsei University**&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |  Mar 2015 - Aug 2021 <br/>
 Bachelor of Science in Engineering (Major : Computer Science) <br/>
 Bachelor of Science in Engineering (Major : Urban Planning & Engineering) <br/>
 - National Science and Technology Scholarship (full tuition granted for students with top 3% admission score) <br/>
