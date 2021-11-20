@@ -65,15 +65,15 @@ Publications
 
 Honors and Awards
 ------
-2021 NC Fellowship - Neural Graphics Track, _NCSOFT_, 2021-2022 <br/>
-Computer Science Graduation Capstone Project Competition | Grand Prize | Yonsei University | 2021 <br/>
-Excellence Prize in Urban Engineering Graduation Capstone Project Competition, _KOSHAM_, 2020 <br/>
-National Science and Engineering Scholarship, _Korea Student Aid Foundation_, 2015-2020 <br/>
-Certificate of Commendation, _Eighth United States Army_, 2017, 2018 <br/>
-Certificate of Appreciation, _Republic of Korea Army_, 2018 <br/>
-Semester High Honors, _Yonsei University_, 2016, 2021 <br/>
-Semester Honors, _Yonsei University_, 2015, 2016, 2017 <br/>
-Winner of the 2nd Residential College Academic Seminar - Reading and Presentation Competition, _Yonsei University_, 2015 <br/>
+**NC Fellowship - Neural Graphics Track** | NCSOFT | 2021-2022 <br/>
+**Computer Science Graduation Capstone Project Competition** Grand Prize | Yonsei University | 2021 <br/>
+**Urban Engineering Graduation Capstone Project Competition** Excellence Prize | Yonsei University & KOSHAM | 2020 <br/>
+**National Science and Engineering Scholarship** | Korea Student Aid Foundation | 2015-2020 <br/>
+**Certificate of Commendation** | Eighth United States Army | 2017, 2018 <br/>
+**Certificate of Appreciation** | Republic of Korea Army | 2018 <br/>
+**Semester High Honors** | Yonsei University | 2016, 2021 <br/>
+**Semester Honors** | Yonsei University | 2015, 2016, 2017 <br/>
+**2nd Residential College Academic Seminar (Reading and Presentation Competition)** 1st Place | Yonsei University | 2015 <br/>
 
 Projects
 ------
