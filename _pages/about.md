@@ -1,12 +1,3 @@
----
-permalink: /
-excerpt: "About me"
-author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
----
-
 News
 ------
 **Nov 2021** 1 paper has advanced to the second phase of the 2-phase review process of AAAI-22 <br/>
