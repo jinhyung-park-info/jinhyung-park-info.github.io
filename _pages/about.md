@@ -1,5 +1,5 @@
 ---
-excerpt: "News"
+excerpt: "About Me"
 redirect_from: 
   - /about/
   - /about.html
