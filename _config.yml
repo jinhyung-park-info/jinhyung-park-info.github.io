@@ -81,8 +81,8 @@ analytics:
 # Site Author
 author:
   name             : "Jinhyung Park"
-  avatar           : "profile.png"
-  bio              : "Bachelor of Engineering in Computer Science             Bachelor of Engineering in Urban Planning & Engineering"
+  avatar           : "profile_new.jpg"
+  bio              : "Bachelor of Science in Engineering (Computer Science)"
   location         : "Seoul, Korea"
   employer         :
   googlescholar    : "https://scholar.google.com/citations?user=Uw7A-ksAAAAJ&hl=ko"
@@ -265,7 +265,8 @@ plugins:
   - jekyll-feed
   - jekyll-redirect-from
 # mimic GitHub Pages with --safe
-whitelist:
+
+list:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
