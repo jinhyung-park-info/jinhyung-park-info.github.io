@@ -10,7 +10,7 @@ redirect_from:
 
 News
 ------
-**Nov 2021** 1 paper has advanced to the second phase of the 2-phase review process of _AAAI-22_ <br/>
+**Nov 2021** 1 paper has been advanced to the second phase of the 2-phase review process of _AAAI-22_ <br/>
 **Sep 2021** 1 paper has been submitted to _AAAI-22_ <br/>
 **Aug 2021** Received 2 Bachelor Degrees from _Yonsei University_, @Seoul <br/>
 **Jul 2021** Accepted to _NAVER_ as a Software Developer (deffered the offer to 2022) <br/>
@@ -56,8 +56,8 @@ Software Developer at Naver<br/>
 Research Intern at the Computer Graphics and Applications Lab <br/>
 
 **Republic of Korea Army** (Dongducheon, Korea) &nbsp; &nbsp; | &nbsp; &nbsp; Mar 2017 - Dec 2018 <br/>
-Senior KATUSA at the 210 Field Artillery Brigade, 2nd Infantry Division (Korean Augmentation to the United States of Army) | May 2018 - Dec 2019 <br/>
-Liaison Specialist at the 210 Field Artillery Brigade, 2nd Infantry Division (Korean Augmentation to the United States of Army) | Mar 2017 - May 2018 <br/>
+Senior [KATUSA](https://8tharmy.korea.army.mil/site/about/katusa-soldier-program.asp) (Korean Augmentation to the United States of Army) at the 210 Field Artillery Brigade, 2nd Infantry Division (May 2018 - Dec 2019) <br/>
+Liaison Specialist at the 210 Field Artillery Brigade, 2nd Infantry Division (Mar 2017 - May 2018) <br/>
 
 Research Experience
 ------
