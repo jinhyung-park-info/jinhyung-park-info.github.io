@@ -12,7 +12,7 @@ News
 ------
 **Nov 2021** 1 paper has advanced to the second phase of the 2-phase review process of AAAI-22 <br/>
 **Sep 2021** 1 paper has been submitted to AAAI-22 <br/>
-**Aug 2021** Received 2 Bachelor's Degree (Bachelor of Science in Engineering - Computer Science, Bachelor of Science in Engineering - Urban Planning & Engineering) from Yonsei University, @Seoul <br/>
+**Aug 2021** Received 2 Bachelor Degrees from Yonsei University, @Seoul <br/>
 **Jul 2021** Accepted to NAVER as a Software Developer (deffered the offer to 2022) <br/>
 **Jul 2021** Received and enrolled in the 2021 NC Fellowship - Neural Graphics Track <br/>
 **Jun 2020** Started to work as a research intern in the Computer Graphics Laboratory at Yonsei University, @Seoul <br/>
