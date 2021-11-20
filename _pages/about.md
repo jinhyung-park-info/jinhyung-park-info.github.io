@@ -56,7 +56,7 @@ Software Developer at Naver<br/>
 Research Intern at the Computer Graphics and Applications Lab <br/>
 
 **Republic of Korea Army** (Dongducheon, Korea) &nbsp; &nbsp; | &nbsp; &nbsp; Mar 2017 - Dec 2018 <br/>
-Senior [KATUSA](https://8tharmy.korea.army.mil/site/about/katusa-soldier-program.asp) (Korean Augmentation to the United States of Army) at the 210 Field Artillery Brigade, 2nd Infantry Division (May 2018 - Dec 2019) <br/>
+Senior [KATUSA](https://8tharmy.korea.army.mil/site/about/katusa-soldier-program.asp) at the 210 Field Artillery Brigade, 2nd Infantry Division (May 2018 - Dec 2019) <br/>
 Liaison Specialist at the 210 Field Artillery Brigade, 2nd Infantry Division (Mar 2017 - May 2018) <br/>
 
 Research Experience
