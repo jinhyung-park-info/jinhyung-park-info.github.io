@@ -16,7 +16,7 @@ News
 **Jul 2021** Accepted to NAVER as a Software Developer (deffered the offer to 2022) <br/>
 **Jul 2021** Received and enrolled in the 2021 NC Fellowship - Neural Graphics Track <br/>
 **Jun 2020** Started to work as a research intern in the Computer Graphics Laboratory at Yonsei University, @Seoul <br/>
-**May 2020** Participated in the 2020 NAVER CAMPUS HACKDAY \\
+**May 2020** Participated in the 2020 NAVER CAMPUS HACKDAY <br/>
 **Apr 2020** Finished my exchange program at the University of Toronto, @Toronto <br/>
 **Sep 2019** Started my exchange program at the University of Toronto, @Toronto <br/>
 **Jun 2019** Started my double major as Computer Science at Yonsei University, @Seoul <br/>
@@ -29,18 +29,18 @@ I am a research intern at the Computer Graphics and Applications Laboratory, Yon
 Physics-based simulation, Animation, Computational Photography <br/><br/>
 
 **Ongoing**<br/>
-Physical simulation of synthetic and real-world deformable objects (under review)<br/>
-2021 NC Fellowship - Neural Graphics Track (Motion Capture Denoising Project)
+Physical simulation of synthetic and real-world deformable objects (under review) <br/>
+2021 NC Fellowship - Neural Graphics Track (Motion Capture Denoising Project) <br/>
 
 Education
 ------
-**Yonsei University**  |  Mar 2015 - Aug 2021<br/>
-Bachelor of Science in Engineering (Major : Computer Science)<br/>
-Bachelor of Science in Engineering (Major : Urban Planning & Engineering)<br/>
-- National Science and Technology Scholarship (granted with students with top 3% admission score)<br/>
+**Yonsei University**  |  Mar 2015 - Aug 2021 <br/>
+Bachelor of Science in Engineering (Major : Computer Science) <br/>
+Bachelor of Science in Engineering (Major : Urban Planning & Engineering) <br/>
+- National Science and Technology Scholarship (granted with students with top 3% admission score) <br/>
 - Admission and Graduation with highest distinction<br/>
--    GPA     : 4.09 / 4.3<br/>
-- Class Rank : 1 / 33<br/>
+-    GPA     : 4.09 / 4.3 <br/>
+- Class Rank : 1 / 33 <br/>
 
 
 Work Experience
