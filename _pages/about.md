@@ -59,20 +59,25 @@ Research Intern at the Computer Graphics and Applications Lab <br/>
 Senior [KATUSA](https://8tharmy.korea.army.mil/site/about/katusa-soldier-program.asp) at the 210 Field Artillery Brigade, 2nd Infantry Division (May 2018 - Dec 2019) <br/>
 Liaison Specialist at the 210 Field Artillery Brigade, 2nd Infantry Division (Mar 2017 - May 2018) <br/>
 
-Research Experience
-------
-
 Publications
 ------
-Publication 1
+**Jin Hyung Park**, Dohae Lee, In-Kwon Lee. 2021. Flexible Networks for Learning Physical Dynamics of Deformable Objects. (Submission under review) <br/>
 
 Honors and Awards
 ------
-Honors 1
+2021 NC Fellowship - Neural Graphics Track, _NCSOFT_, 2021-2022 <br/>
+Grand Prize in Computer Science Graduation Capstone Project Competition, _Yonsei University_, 2021 <br/>
+Excellence Prize in Urban Engineering Graduation Capstone Project Competition, _KOSHAM_, 2020 <br/>
+National Science and Engineering Scholarship, _Korea Student Aid Foundation_, 2015-2020 <br/>
+Certificate of Commendation, _Eighth United States Army_, 2017, 2018 <br/>
+Certificate of Appreciation, _Republic of Korea Army_, 2018 <br/>
+Semester High Honors, _Yonsei University_, 2016, 2021 <br/>
+Semester Honors, _Yonsei University_, 2015, 2016, 2017 <br/>
+Winner of the 2nd Residential College Academic Seminar - Reading and Presentation Competition, _Yonsei University_, 2015 <br/>
 
 Projects
 ------
-Project 1
+Simulating Point and Click Behavior in Implicit Adversarial Environment <br/>
 
 Skills
 ------
