@@ -66,7 +66,7 @@ Publications
 Honors and Awards
 ------
 2021 NC Fellowship - Neural Graphics Track, _NCSOFT_, 2021-2022 <br/>
-Grand Prize in Computer Science Graduation Capstone Project Competition, _Yonsei University_, 2021 <br/>
+Computer Science Graduation Capstone Project Competition | Grand Prize | Yonsei University | 2021 <br/>
 Excellence Prize in Urban Engineering Graduation Capstone Project Competition, _KOSHAM_, 2020 <br/>
 National Science and Engineering Scholarship, _Korea Student Aid Foundation_, 2015-2020 <br/>
 Certificate of Commendation, _Eighth United States Army_, 2017, 2018 <br/>
