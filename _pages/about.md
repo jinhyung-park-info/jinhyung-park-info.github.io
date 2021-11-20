@@ -34,16 +34,16 @@ Physical simulation of synthetic and real-world deformable objects (under review
 Education
 ------
 **Yonsei University** (Seoul, Korea) &nbsp; &nbsp; | &nbsp; &nbsp; Mar 2015 - Aug 2021 <br/>
-Undergraduate Student <br/>
+_Undergraduate Student_ <br/>
 Bachelor of Science in Engineering (Major : Computer Science) <br/>
 Bachelor of Science in Engineering (Major : Urban Planning & Engineering) <br/>
-- National Science and Technology Scholarship (full tuition granted for students with top 3% admission score) <br/>
+- National Science and Technology Scholarship (full tuition awarded to students with top 3% admission score) <br/>
 - Admission and graduation with highest distinction <br/>
 -    GPA     : 4.09 / 4.3 <br/>
 - Class Rank : 1 / 33 <br/>
 
 **University of Toronto** (Toronto, Canada) &nbsp; &nbsp; | &nbsp; &nbsp; Sep 2019 - Apr 2020 <br/>
-Exchange Student <br/>
+_Exchange Student_ <br/>
 Faculty of Arts and Science - Computer Science <br/>
 - Major GPA  : 3.80 / 4.0 <br/>
 
