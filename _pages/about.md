@@ -28,8 +28,7 @@ I am a research intern at the [Computer Graphics and Applications Lab](http://cg
 Physics-based simulation, Animation, Computational Photography <br/>
 
 **Ongoing**<br/>
-Physical simulation of synthetic and real-world deformable objects (under review) <br/>
-2021 NC Fellowship - Neural Graphics Track (Motion Capture Denoising Project) <br/>
+Character Animation (Motion Capture Denoising) Project in progress in conjunction with the _2021 NC Fellowship - Neural Graphics Track_ <br/>
 
 Education
 ------
@@ -77,11 +76,15 @@ Honors and Awards
 
 Projects
 ------
-Simulating Point and Click Behavior in Implicit Adversarial Environment <br/>
+- Simulating Point and Click Behavior in Implicit Adversarial Environment &nbsp; &nbsp; [[video](https://www.youtube.com/watch?v=DLQu1RDsS6w&t=143s)] [[code](https://github.com/SWCapstoneProject/Adversarial_PointAndClick)] <br/>
+- Flood Risk Assessment and Resilience Plan Development of Seoul using multidimensional spatial analysis framework [poster](https://drive.google.com/file/d/15VipeZra-6BHfM_HFEQFXYkMaBEuGp0H/view)
+- Whack-A-Maze-Racer (Android Game App) [download](https://play.google.com/store/apps/details?id=com.wamr.myapplication) [code](https://github.com/jinhyung-park-info/Whack-A-Maze-Racer)
+- Speech Recognize Calendar (Android App) [code](https://github.com/jinhyung-park-info/SpeechRecognizeCalender)
+- Surviving at Yonsei (Game) [video](https://www.youtube.com/watch?v=MNkkJPtQbtw)
 
 Skills
 ------
-Skill 1
+- 
 
 Curriculum Vitae/Resume
 ------
