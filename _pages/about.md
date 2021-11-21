@@ -28,7 +28,7 @@ I am a research intern at the [Computer Graphics and Applications Lab](http://cg
 Physics-based simulation, Animation, Computational Photography <br/>
 
 **Ongoing**<br/>
-Character Animation (Motion Capture Denoising) Project in progress in conjunction with the _2021 NC Fellowship - Neural Graphics Track_ <br/>
+Character Animation (Motion Capture Denoising) Project in progress in conjunction with the _NC Fellowship - Neural Graphics Track_ <br/>
 
 Education
 ------
@@ -76,16 +76,24 @@ Honors and Awards
 
 Projects
 ------
-- Simulating Point and Click Behavior in Implicit Adversarial Environment &nbsp; &nbsp; [[video](https://www.youtube.com/watch?v=DLQu1RDsS6w&t=143s)] [[code](https://github.com/SWCapstoneProject/Adversarial_PointAndClick)] <br/>
-- Flood Risk Assessment and Resilience Plan Development of Seoul using multidimensional spatial analysis framework [poster](https://drive.google.com/file/d/15VipeZra-6BHfM_HFEQFXYkMaBEuGp0H/view)
-- Whack-A-Maze-Racer (Android Game App) [download](https://play.google.com/store/apps/details?id=com.wamr.myapplication) [code](https://github.com/jinhyung-park-info/Whack-A-Maze-Racer)
-- Speech Recognize Calendar (Android App) [code](https://github.com/jinhyung-park-info/SpeechRecognizeCalender)
-- Surviving at Yonsei (Game) [video](https://www.youtube.com/watch?v=MNkkJPtQbtw)
+- **Denoising Motion Capture Data for Character Animation** | 2021 (in progress)
+- **Simulating Point and Click Behavior in Implicit Adversarial Environment** | 2021 | [[video](https://www.youtube.com/watch?v=DLQu1RDsS6w&t=143s)] [[code](https://github.com/SWCapstoneProject/Adversarial_PointAndClick)] <br/>
+- **Flood Risk Assessment and Resilience Plan Development of Seoul using multidimensional spatial analysis framework** | 2020 | [[poster](https://drive.google.com/file/d/15VipeZra-6BHfM_HFEQFXYkMaBEuGp0H/view)]
+- **Speech Recognize Calendar** (Android App) | 2020 | [[code](https://github.com/jinhyung-park-info/SpeechRecognizeCalender)] 
+- **Whack-A-Maze-Racer** (Android Game App) | 2019 | [[download](https://play.google.com/store/apps/details?id=com.wamr.myapplication)] [[code](https://github.com/jinhyung-park-info/Whack-A-Maze-Racer)]
+- **Surviving at Yonsei** (Game) | 2016 | [[video](https://www.youtube.com/watch?v=MNkkJPtQbtw)] 
 
 Skills
 ------
-- 
+**1. Programming Languages**
+  - Advanced : Python, C++, C
+  - Moderate : Java
+  - Novice : HTML, CSS, Javascript, Assembly <br/>
+
+**2. Deep Learning Frameworks** : Tensorflow, Pytorch <br/>
+**3. External Libraries** : OpenGL, OpenCV, Three.js <br/>
+**4. Softwares** : Maya, Android Studio, Adobe Lightroom, Adobe Photoshop, Microsoft Powerpoint/Word/Excel <br/>
 
 Curriculum Vitae/Resume
 ------
-Resume
+[CV](https://github.com/jinhyung-park-info/jinhyung-park-info.github.io/raw/master/_pages/Resume_JH_Park.pdf)
