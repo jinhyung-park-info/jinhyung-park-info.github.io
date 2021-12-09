@@ -10,7 +10,7 @@ redirect_from:
 
 News
 ------
-**Nov 2021** My first paper has been posted to arXiv <br/>
+**Nov 2021** 1 paper has been posted to arXiv <br/>
 **Aug 2021** Received a dual degree (B.S.E & B.S.E) from _Yonsei University_, @Seoul <br/>
 **Jul 2021** Accepted to _NAVER_ as a Software Developer (deffered the offer to December 2021) <br/>
 **Jul 2021** Received and joined the _2021 NC Fellowship - Neural Graphics Track_ <br/>
