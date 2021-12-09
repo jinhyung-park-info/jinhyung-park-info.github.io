@@ -60,7 +60,8 @@ Liaison Specialist at the 210 Field Artillery Brigade, 2nd Infantry Division (Ma
 
 Publications
 ------
-**Jin Hyung Park**, Dohae Lee, In-Kwon Lee. 2021. Flexible Networks for Learning Physical Dynamics of Deformable Objects. (Submission under review) <br/>
+**Jinhyung Park**, Dohae Lee, In-Kwon Lee, "Flexible Networks for Learning Physical Dynamics of Deformable Objects", arXiv:2112.03728, 2021. (Submission under review)
+[[pdf](https://arxiv.org/pdf/2112.03728)] [[code](https://github.com/jinhyung-park-info/TP-Net)]
 
 Honors and Awards
 ------
@@ -76,9 +77,9 @@ Honors and Awards
 
 Projects
 ------
-- **Denoising Motion Capture Data for Character Animation** | 2021 (in progress)
+- **Denoising Motion Capture Data** | 2021 (in progress)
 - **Simulating Point and Click Behavior in Implicit Adversarial Environment** | 2021 | [[video](https://www.youtube.com/watch?v=DLQu1RDsS6w&t=143s)] [[code](https://github.com/SWCapstoneProject/Adversarial_PointAndClick)] <br/>
-- **Flood Risk Assessment and Resilience Plan Development of Seoul using multidimensional spatial analysis framework** | 2020 | [[poster](https://drive.google.com/file/d/15VipeZra-6BHfM_HFEQFXYkMaBEuGp0H/view)]
+- **Flood Risk Assessment and Resilience Plan Development of Seoul using multidimensional spatial analysis framework** | 2020 | [[poster](https://drive.google.com/file/d/1KetUWL6CXgrbpvTFPV2UvpDSR71rPk3y/view?usp=sharing)]
 - **Speech Recognize Calendar** (Android App) | 2020 | [[code](https://github.com/jinhyung-park-info/SpeechRecognizeCalender)] 
 - **Whack-A-Maze-Racer** (Android Game App) | 2019 | [[download](https://play.google.com/store/apps/details?id=com.wamr.myapplication)] [[code](https://github.com/jinhyung-park-info/Whack-A-Maze-Racer)]
 - **Surviving at Yonsei** (Game) | 2016 | [[video](https://www.youtube.com/watch?v=MNkkJPtQbtw)] 
@@ -96,4 +97,4 @@ Skills
 
 Curriculum Vitae/Resume
 ------
-[CV](https://github.com/jinhyung-park-info/jinhyung-park-info.github.io/raw/master/_pages/CV_Jinhyung_Park.pdf)
+[CV](https://github.com/jinhyung-park-info/jinhyung-park-info.github.io/raw/master/_pages/Jinhyung_Park.pdf)
