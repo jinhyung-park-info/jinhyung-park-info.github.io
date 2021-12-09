@@ -22,19 +22,16 @@ News
 
 About Me
 ------
-I am a research intern at the [Computer Graphics and Applications Lab](http://cga.yonsei.ac.kr/), [Yonsei University](https://www.yonsei.ac.kr/en_sc/), Seoul, Korea, and will be working as a software developer at [NAVER](https://www.navercorp.com/en) starting from December 2020. My primary research interest lies in the intersection of computer graphics and computer vision. I am particularly interested in physical simulation, animation, and computational photography, although I believe my research interest will evolve during my time pursuing advanced studies. My ultimate goal is to develop frameworks that can bring life to artistic works and help recreate the visual world around us.
-
-**Research Interest** <br/>
-Physics-based simulation, Animation, Computational Photography <br/>
+I am a research intern at the [Computer Graphics and Applications Lab](http://cga.yonsei.ac.kr/), [Yonsei University](https://www.yonsei.ac.kr/en_sc/), Seoul, Korea, and will be working as a software developer at [NAVER](https://www.navercorp.com/en) starting from December 2021. My primary research interest lies at the intersection of computer graphics and computer vision, including subjects, but not limited to physical simulation, character animation, assistive robotics, and computational photography. My ultimate goal is to develop frameworks that can simulate, recreate, and manipulate the physical, visual world around us.
 
 **Ongoing**<br/>
-Character Animation (Motion Capture Denoising) Project in progress in conjunction with the _NC Fellowship - Neural Graphics Track_ <br/>
+Motion Capture Denoising Project in progress in conjunction with the _NC Fellowship - Neural Graphics Track_ program <br/>
 
 Education
 ------
 **Yonsei University** (Seoul, Korea) &nbsp; &nbsp; | &nbsp; &nbsp; Mar 2015 - Aug 2021 <br/>
 _Undergraduate Student_ <br/>
-Bachelor of Science in Engineering (Major : Computer Science) <br/>
+Bachelor of Science in Engineering (Major : Computer Science & Engineering) <br/>
 Bachelor of Science in Engineering (Major : Urban Planning & Engineering) <br/>
 - National Science and Technology Scholarship (full tuition awarded to students with top 3% admission score) <br/>
 - Admission and graduation with highest distinction <br/>
@@ -48,7 +45,7 @@ Faculty of Arts and Science - Computer Science <br/>
 
 Work Experience
 ------  
-**NAVER** (Seoul, Korea) &nbsp; &nbsp; | &nbsp; &nbsp; Dec 2020 - (tentative) <br/>
+**NAVER** (Seoul, Korea) &nbsp; &nbsp; | &nbsp; &nbsp; Dec 2021 - (tentative) <br/>
 Software Developer at Naver<br/>
 
 **Yonsei University** (Seoul, Korea) &nbsp; &nbsp; | Jun 2020 - Sep 2021 <br/>
@@ -87,14 +84,9 @@ Projects
 Skills
 ------
 **1. Programming Languages**
-  - Advanced : Python, C++, C
-  - Moderate : Java
-  - Novice : HTML, CSS, Javascript, Assembly <br/>
+  - Proficient : Python, C++, C
+  - Moderate : Java <br/>
 
 **2. Deep Learning Frameworks** : Tensorflow, Pytorch <br/>
 **3. External Libraries** : OpenGL, OpenCV, Three.js <br/>
-**4. Softwares** : Maya, Android Studio, Adobe Lightroom, Adobe Photoshop, Microsoft Powerpoint/Word/Excel <br/>
-
-Curriculum Vitae/Resume
-------
-[CV](https://github.com/jinhyung-park-info/jinhyung-park-info.github.io/raw/master/_pages/Jinhyung_Park.pdf)
+**4. Softwares** : Maya, Unity3D, Android Studio, Adobe Lightroom, Adobe Photoshop, Microsoft Powerpoint/Word/Excel <br/>
