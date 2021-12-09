@@ -10,11 +10,10 @@ redirect_from:
 
 News
 ------
-**Nov 2021** 1 paper has been advanced to the second phase of the 2-phase review process of _AAAI-22_ <br/>
-**Sep 2021** 1 paper has been submitted to _AAAI-22_ <br/>
-**Aug 2021** Received 2 Bachelor Degrees from _Yonsei University_, @Seoul <br/>
-**Jul 2021** Accepted to _NAVER_ as a Software Developer (deffered the offer to 2022) <br/>
-**Jul 2021** Received and enrolled in the _2021 NC Fellowship - Neural Graphics Track_ <br/>
+**Nov 2021** My first paper has been posted to arXiv <br/>
+**Aug 2021** Received a dual degree (B.S.E & B.S.E) from _Yonsei University_, @Seoul <br/>
+**Jul 2021** Accepted to _NAVER_ as a Software Developer (deffered the offer to December 2021) <br/>
+**Jul 2021** Received and joined the _2021 NC Fellowship - Neural Graphics Track_ <br/>
 **Jun 2020** Started to work as a research intern in the _Computer Graphics and Applications Lab_ at _Yonsei University_, @Seoul <br/>
 **Apr 2020** Finished my exchange program at the _University of Toronto_, @Toronto <br/>
 **Sep 2019** Started my exchange program at the _University of Toronto_, @Toronto <br/>
@@ -62,15 +61,15 @@ Publications
 
 Honors and Awards
 ------
-**NC Fellowship - Neural Graphics Track** | NCSOFT | 2021-2022 <br/>
-**Computer Science Graduation Capstone Project Competition** Grand Prize | Yonsei University | 2021 <br/>
-**Urban Engineering Graduation Capstone Project Competition** Excellence Prize | Yonsei University & KOSHAM | 2020 <br/>
-**National Science and Engineering Scholarship** | Korea Student Aid Foundation | 2015-2020 <br/>
-**Certificate of Commendation** | Eighth United States Army | 2017, 2018 <br/>
-**Certificate of Appreciation** | Republic of Korea Army | 2018 <br/>
-**Semester High Honors** | Yonsei University | 2016, 2021 <br/>
-**Semester Honors** | Yonsei University | 2015, 2016, 2017 <br/>
-**2nd Residential College Academic Seminar (Reading and Presentation Competition)** 1st Place | Yonsei University | 2015 <br/>
+**NC Fellowship - Neural Graphics Track**, NCSOFT, 2021-2022 <br/>
+**Computer Science Graduation Capstone Project Competition** (Grand Prize), Yonsei University, 2021 <br/>
+**Urban Engineering Graduation Capstone Project Competition** (Excellence Prize), KOSHAM, 2020 <br/>
+**National Scholarship for Science and Engineering**, Korea Student Aid Foundation, 2015-2020 <br/>
+**Certificate of Commendation**, Eighth United States Army, 2017, 2018 <br/>
+**Certificate of Appreciation**, Republic of Korea Army, 2018 <br/>
+**Semester High Honors**, Yonsei University, 2015-Fall, 2020-Fall <br/>
+**Semester Honors**, Yonsei University, 2015-Spring, 2016-Spring, 2016-Fall <br/>
+**2nd Residential College Academic Seminar (Reading and Presentation Competition)** (Grand Prize), Yonsei University, 2015 <br/>
 
 Projects
 ------
