@@ -32,7 +32,8 @@ Education
 ------
 **Yonsei University** (Seoul, Korea) &nbsp; &nbsp; | &nbsp; &nbsp; Mar 2015 - Aug 2021 <br/>
 _Undergraduate Student_ <br/>
-BSE in Computer Science & Engineering, BSE in Urban Planning & Engineering <br/>
+- B.S.E. in Computer Science & Engineering <br/>
+- B.S.E. in Urban Planning & Engineering <br/>
 - Admission and graduation with **highest distinction** <br/>
 -    GPA     : **4.09 / 4.3**, Class Rank : **1 / 33** <br/>
 - 2 years of absense to fulfill compulsory military service <br/>
@@ -67,22 +68,22 @@ Scholarships and Fellowships
 
 Honors and Awards
 ------
-2021 &nbsp; &nbsp; &nbsp; &nbsp; **Computer Science Graduation Capstone Project Competition** (Grand Prize), Yonsei University, 2021 <br/>
-2020 &nbsp; &nbsp; &nbsp; &nbsp; **Urban Engineering Graduation Capstone Project Competition** (Excellence Prize), KOSHAM, 2020 <br/>
-2018 &nbsp; &nbsp; &nbsp; &nbsp; **Certificate of Commendation**, Eighth United States Army, 2017, 2018 <br/>
-2018 &nbsp; &nbsp; &nbsp; &nbsp; **Certificate of Appreciation**, Republic of Korea Army, 2018 <br/>
+**Computer Science Graduation Capstone Project Competition** (Grand Prize), Yonsei University, 2021 <br/>
+**Urban Engineering Graduation Capstone Project Competition** (Excellence Prize), KOSHAM, 2020 <br/>
+**Certificate of Commendation**, Eighth United States Army, 2017, 2018 <br/>
+**Certificate of Appreciation**, Republic of Korea Army, 2018 <br/>
 **Semester High Honors**, Yonsei University, 2015-Fall, 2020-Fall <br/>
 **Semester Honors**, Yonsei University, 2015-Spring, 2016-Spring, 2016-Fall <br/>
 **2nd Residential College Academic Seminar (Reading and Presentation Competition)** (Grand Prize), Yonsei University, 2015 <br/>
 
 Projects
 ------
-- **Denoising Motion Capture Data** | 2021 (in progress)
-- **Simulating Point and Click Behavior in Implicit Adversarial Environment** | 2021 | [[video](https://www.youtube.com/watch?v=DLQu1RDsS6w&t=143s)] [[code](https://github.com/SWCapstoneProject/Adversarial_PointAndClick)] <br/>
-- **Flood Risk Assessment and Resilience Plan Development of Seoul using multidimensional spatial analysis framework** | 2020 | [[poster](https://drive.google.com/file/d/1KetUWL6CXgrbpvTFPV2UvpDSR71rPk3y/view?usp=sharing)]
-- **Speech Recognize Calendar** (Android App) | 2020 | [[code](https://github.com/jinhyung-park-info/SpeechRecognizeCalender)] 
-- **Whack-A-Maze-Racer** (Android Game App) | 2019 | [[download](https://play.google.com/store/apps/details?id=com.wamr.myapplication)] [[code](https://github.com/jinhyung-park-info/Whack-A-Maze-Racer)]
-- **Surviving at Yonsei** (Game) | 2016 | [[video](https://www.youtube.com/watch?v=MNkkJPtQbtw)] 
+2021 &nbsp; &nbsp; &nbsp; &nbsp; **Denoising Motion Capture Data** (in progress) <br/>
+2021 &nbsp; &nbsp; &nbsp; &nbsp; **Simulating Point and Click Behavior in Implicit Adversarial Environment** [[video](https://www.youtube.com/watch?v=DLQu1RDsS6w&t=143s)][[code](https://github.com/SWCapstoneProject/Adversarial_PointAndClick)] <br/>
+2020 &nbsp; &nbsp; &nbsp; &nbsp; **Flood Risk Assessment and Resilience Plan Development of Seoul using multidimensional spatial analysis framework** [[poster](https://drive.google.com/file/d/1KetUWL6CXgrbpvTFPV2UvpDSR71rPk3y/view?usp=sharing)] <br/>
+2020 &nbsp; &nbsp; &nbsp; &nbsp; **Speech Recognize Calendar** (Android App) [[code](https://github.com/jinhyung-park-info/SpeechRecognizeCalender)] <br/>
+2019 &nbsp; &nbsp; &nbsp; &nbsp; **Whack-A-Maze-Racer** (Android Game App) [[download](https://play.google.com/store/apps/details?id=com.wamr.myapplication)][[code](https://github.com/jinhyung-park-info/Whack-A-Maze-Racer)] <br/>
+2016 &nbsp; &nbsp; &nbsp; &nbsp; **Surviving at Yonsei** (Game) [[video](https://www.youtube.com/watch?v=MNkkJPtQbtw)] <br/>
 
 Skills
 ------
