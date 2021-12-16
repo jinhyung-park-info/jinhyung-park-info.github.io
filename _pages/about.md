@@ -34,8 +34,8 @@ Education
 _Undergraduate Student_ <br/>
 B.S.E in Computer Science & Engineering <br/>
 B.S.E in Urban Planning & Engineering <br/>
-- Admission and graduation with highest distinction <br/>
--    GPA     : 4.09 / 4.3, Class Rank : 1 / 33 <br/>
+- Admission and graduation with **highest distinction** <br/>
+-    GPA     : **4.09 / 4.3**, Class Rank : **1 / 33** <br/>
 - 2 years of absense to fulfill compulsory military service <br/>
 
 **University of Toronto** (Toronto, Canada) &nbsp; &nbsp; | &nbsp; &nbsp; Sep 2019 - Apr 2020 <br/>
@@ -45,29 +45,33 @@ Faculty of Arts and Science - Computer Science <br/>
 
 Work Experience
 ------  
-**NAVER** (Seoul, Korea) &nbsp; &nbsp; | &nbsp; &nbsp; Starting Dec 29th, 2021 <br/>
-Software Developer at Naver<br/>
+Starting Dec 29th, 2021 &nbsp; &nbsp; &nbsp; &nbsp; **Software Developer** @ [NAVER](https://www.navercorp.com/en) (Seoul, Korea) <br/>
 
-**Yonsei University** (Seoul, Korea) &nbsp; &nbsp; | Jun 2020 - Sep 2021 <br/>
-Research Intern at the Computer Graphics and Applications Lab <br/>
+Jun 2020 - Sep 2021 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; **Research Intern** @ [Computer Graphics and Applications Lab](http://cga.yonsei.ac.kr/) at [Yonsei University](https://www.yonsei.ac.kr/en_sc/) (Seoul, Korea), <br/>
 
-**Republic of Korea Army** (Dongducheon, Korea) &nbsp; &nbsp; | &nbsp; &nbsp; Mar 2017 - Dec 2018 <br/>
-Senior [KATUSA](https://8tharmy.korea.army.mil/site/about/katusa-soldier-program.asp) at the 210 Field Artillery Brigade, 2nd Infantry Division (May 2018 - Dec 2019) <br/>
-Liaison Specialist at the 210 Field Artillery Brigade, 2nd Infantry Division (Mar 2017 - May 2018) <br/>
+Jul 2019 - Aug 2019 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; **Program Coordinator** @ [Hanguk Academy of Foreign Studies (HAFS) Camp](http://hafscamp.com/) (Yongin, Korea)  <br/>
+
+Mar 2017 - Dec 2018 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; **KATUSA** ([Korean Augmentation To the United States Army](https://8tharmy.korea.army.mil/site/about/katusa-soldier-program.asp)) @ Republic of Korea Army (Dongducheon, Korea)  <br/>
+
+Jun 2016 - Aug 2016 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; **Data Management Associate** @ [Korea Research Institute for Human Settlements](https://eng.krihs.re.kr/) (KRIHS) (Sejong, Korea) <br/>
+
 
 Publications
 ------
 **Jinhyung Park**, Dohae Lee, In-Kwon Lee, "Flexible Networks for Learning Physical Dynamics of Deformable Objects", arXiv:2112.03728, 2021. (Submission under review)
 [[pdf](https://arxiv.org/pdf/2112.03728)] [[code](https://github.com/jinhyung-park-info/TP-Net)]
 
+Scholarships and Fellowships
+-----
+**NC Fellowship - Neural Graphics Track**, NCSOFT, 2021-2022 <br/>
+**National Scholarship for Science and Engineering**, Korea Student Aid Foundation, 2015-2020 <br/>
+
 Honors and Awards
 ------
-**NC Fellowship - Neural Graphics Track**, NCSOFT, 2021-2022 <br/>
-**Computer Science Graduation Capstone Project Competition** (Grand Prize), Yonsei University, 2021 <br/>
-**Urban Engineering Graduation Capstone Project Competition** (Excellence Prize), KOSHAM, 2020 <br/>
-**National Scholarship for Science and Engineering**, Korea Student Aid Foundation, 2015-2020 <br/>
-**Certificate of Commendation**, Eighth United States Army, 2017, 2018 <br/>
-**Certificate of Appreciation**, Republic of Korea Army, 2018 <br/>
+2021 &nbsp; &nbsp; &nbsp; &nbsp; **Computer Science Graduation Capstone Project Competition** (Grand Prize), Yonsei University, 2021 <br/>
+2020 &nbsp; &nbsp; &nbsp; &nbsp; **Urban Engineering Graduation Capstone Project Competition** (Excellence Prize), KOSHAM, 2020 <br/>
+2018 &nbsp; &nbsp; &nbsp; &nbsp; **Certificate of Commendation**, Eighth United States Army, 2017, 2018 <br/>
+2018 &nbsp; &nbsp; &nbsp; &nbsp; **Certificate of Appreciation**, Republic of Korea Army, 2018 <br/>
 **Semester High Honors**, Yonsei University, 2015-Fall, 2020-Fall <br/>
 **Semester Honors**, Yonsei University, 2015-Spring, 2016-Spring, 2016-Fall <br/>
 **2nd Residential College Academic Seminar (Reading and Presentation Competition)** (Grand Prize), Yonsei University, 2015 <br/>
