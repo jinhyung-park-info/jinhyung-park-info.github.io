@@ -40,7 +40,7 @@ _Undergraduate Student_ <br/>
 
 **University of Toronto** (Toronto, Canada) &nbsp; &nbsp; | &nbsp; &nbsp; Sep 2019 - Apr 2020 <br/>
 _Exchange Student_ <br/>
-Faculty of Arts and Science - Computer Science <br/>
+- Faculty of Arts and Science - Computer Science <br/>
 - Major GPA  : 3.80 / 4.0 <br/>
 
 Work Experience
@@ -63,18 +63,24 @@ Publications
 
 Scholarships and Fellowships
 -----
-**NC Fellowship - Neural Graphics Track**, NCSOFT, 2021-2022 <br/>
-**National Scholarship for Science and Engineering**, Korea Student Aid Foundation, 2015-2020 <br/>
+2021-2022 &nbsp; &nbsp; &nbsp; &nbsp; **NC Fellowship - Neural Graphics Track**, NCSOFT <br/>
+2015-2020 &nbsp; &nbsp; &nbsp; &nbsp; **National Scholarship for Science and Engineering**, Korea Student Aid Foundation <br/>
 
 Honors and Awards
 ------
-**Computer Science Graduation Capstone Project Competition** (Grand Prize), Yonsei University, 2021 <br/>
-**Urban Engineering Graduation Capstone Project Competition** (Excellence Prize), KOSHAM, 2020 <br/>
-**Certificate of Commendation**, Eighth United States Army, 2017, 2018 <br/>
-**Certificate of Appreciation**, Republic of Korea Army, 2018 <br/>
-**Semester High Honors**, Yonsei University, 2015-Fall, 2020-Fall <br/>
-**Semester Honors**, Yonsei University, 2015-Spring, 2016-Spring, 2016-Fall <br/>
-**2nd Residential College Academic Seminar (Reading and Presentation Competition)** (Grand Prize), Yonsei University, 2015 <br/>
+**(1) Academic Honors** <br/> <br/>
+2021 &nbsp; &nbsp; &nbsp; &nbsp; **Computer Science Graduation Capstone Project Competition** (Grand Prize), Yonsei University <br/>
+2020 &nbsp; &nbsp; &nbsp; &nbsp; **Urban Engineering Graduation Capstone Project Competition** (Excellence Prize), KOSHAM & Yonsei University <br/>
+2020 &nbsp; &nbsp; &nbsp; &nbsp; **Semester High Honors** (Fall), Yonsei University <br/>
+2016 &nbsp; &nbsp; &nbsp; &nbsp; **Semester Honors** (Spring, Fall), Yonsei University <br/>
+2015 &nbsp; &nbsp; &nbsp; &nbsp; **2nd Residential College Academic Seminar (Reading and Presentation Competition)** (Grand Prize), Yonsei University <br/> 
+2015 &nbsp; &nbsp; &nbsp; &nbsp; **Semester High Honors** (Fall), Yonsei University <br/>
+2015 &nbsp; &nbsp; &nbsp; &nbsp; **Semester Honors** (Spring), Yonsei University <br/> <br/>
+
+**(2) Non-Academic Honors** <br/> <br/>
+2018 &nbsp; &nbsp; &nbsp; &nbsp; **Certificate of Appreciation**, United States Army <br/>
+2018 &nbsp; &nbsp; &nbsp; &nbsp; **Letter of Commendation**, Republic of Korea Army <br/>
+2017 &nbsp; &nbsp; &nbsp; &nbsp; **Certificate of Commendation**, Eighth United States Army <br/>
 
 Projects
 ------
