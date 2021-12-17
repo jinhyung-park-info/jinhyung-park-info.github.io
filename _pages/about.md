@@ -12,7 +12,7 @@ News
 ------
 **Nov 2021** 1 paper has been posted to arXiv <br/>
 **Aug 2021** Received a dual degree (B.S.E & B.S.E) from _Yonsei University_, @Seoul <br/>
-**Aug 2021** Won the grand prize in the 2021-Spring Computer Science Graduation Captsone Project Competition at _Yonsei University_, @Seoul <br/>
+**Aug 2021** Won the grand prize in the Computer Science Graduation Captsone Project Competition at _Yonsei University_, @Seoul <br/>
 **Jul 2021** Accepted to _NAVER_ as a Software Developer (deffered the offer to December 29th, 2021) <br/>
 **Jul 2021** Received and joined the _2021 NC Fellowship - Neural Graphics Track_ <br/>
 **Jun 2020** Started to work as a research intern in the _Computer Graphics and Applications Lab_ at _Yonsei University_, @Seoul <br/>
@@ -30,30 +30,28 @@ Currently, I am enrolled in the _NC Fellowship - Neural Graphics Track_ program,
 
 Education
 ------
-**Yonsei University** (Seoul, Korea) &nbsp; &nbsp; | &nbsp; &nbsp; Mar 2015 - Aug 2021 <br/>
-_Undergraduate Student_ <br/>
+**Yonsei University** (Seoul, Korea) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Mar 2015 - Aug 2021 <br/>
 - B.S.E. in Computer Science & Engineering <br/>
 - B.S.E. in Urban Planning & Engineering <br/>
 - Admission and graduation with **highest distinction** <br/>
 -    GPA     : **4.09 / 4.3**, Class Rank : **1 / 33** <br/>
-- 2 years of absense to fulfill compulsory military service <br/>
+- 2 years of absense to fulfill compulsory military service <br/> <br/>
 
-**University of Toronto** (Toronto, Canada) &nbsp; &nbsp; | &nbsp; &nbsp; Sep 2019 - Apr 2020 <br/>
-_Exchange Student_ <br/>
-- Faculty of Arts and Science - Computer Science <br/>
-- Major GPA  : 3.80 / 4.0 <br/>
+**University of Toronto** (Toronto, Canada) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Sep 2019 - Apr 2020 <br/>
+- Computer Science Exchange Student
+- Major GPA  : **3.80 / 4.0** <br/>
 
 Work Experience
 ------  
 Starting Dec 29th, 2021 &nbsp; &nbsp; &nbsp; &nbsp; **Software Developer** @ [NAVER](https://www.navercorp.com/en) (Seoul, Korea) <br/>
 
-Jun 2020 - Sep 2021 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; **Research Intern** @ [Computer Graphics and Applications Lab](http://cga.yonsei.ac.kr/) at [Yonsei University](https://www.yonsei.ac.kr/en_sc/) (Seoul, Korea), <br/>
+Jun 2020 - Sep 2021 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; **Research Intern** @ [Computer Graphics and Applications Lab](http://cga.yonsei.ac.kr/) at Yonsei University (Seoul, Korea), <br/>
 
 Jul 2019 - Aug 2019 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; **Program Coordinator** @ [Hanguk Academy of Foreign Studies (HAFS) Camp](http://hafscamp.com/) (Yongin, Korea)  <br/>
 
-Mar 2017 - Dec 2018 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; **KATUSA** ([Korean Augmentation To the United States Army](https://8tharmy.korea.army.mil/site/about/katusa-soldier-program.asp)) @ Republic of Korea Army (Dongducheon, Korea)  <br/>
+Mar 2017 - Dec 2018 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; **[KATUSA](https://8tharmy.korea.army.mil/site/about/katusa-soldier-program.asp)** @ Republic of Korea Army (Dongducheon, Korea)  <br/>
 
-Jun 2016 - Aug 2016 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; **Data Management Associate** @ [Korea Research Institute for Human Settlements](https://eng.krihs.re.kr/) (KRIHS) (Sejong, Korea) <br/>
+Jun 2016 - Aug 2016 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; **Data Management Associate** @ [KRIHS](https://eng.krihs.re.kr/) (Sejong, Korea) <br/>
 
 
 Publications
@@ -69,11 +67,11 @@ Scholarships and Fellowships
 Honors and Awards
 ------
 **(1) Academic Honors** <br/> <br/>
-2021 &nbsp; &nbsp; &nbsp; &nbsp; **Computer Science Graduation Capstone Project Competition** (Grand Prize), Yonsei University <br/>
-2020 &nbsp; &nbsp; &nbsp; &nbsp; **Urban Engineering Graduation Capstone Project Competition** (Excellence Prize), KOSHAM & Yonsei University <br/>
+2021 &nbsp; &nbsp; &nbsp; &nbsp; **Computer Science Graduation Capstone Project Competition** | Grand Prize, Yonsei University <br/>
+2020 &nbsp; &nbsp; &nbsp; &nbsp; **Urban Engineering Graduation Capstone Project Competition** | Excellence Prize, KOSHAM & Yonsei University <br/>
 2020 &nbsp; &nbsp; &nbsp; &nbsp; **Semester High Honors** (Fall), Yonsei University <br/>
 2016 &nbsp; &nbsp; &nbsp; &nbsp; **Semester Honors** (Spring, Fall), Yonsei University <br/>
-2015 &nbsp; &nbsp; &nbsp; &nbsp; **2nd Residential College Academic Seminar (Reading and Presentation Competition)** (Grand Prize), Yonsei University <br/> 
+2015 &nbsp; &nbsp; &nbsp; &nbsp; **2nd Residential College Academic Seminar** (Grand Prize), Yonsei University <br/> 
 2015 &nbsp; &nbsp; &nbsp; &nbsp; **Semester High Honors** (Fall), Yonsei University <br/>
 2015 &nbsp; &nbsp; &nbsp; &nbsp; **Semester Honors** (Spring), Yonsei University <br/> <br/>
 
@@ -89,14 +87,11 @@ Projects
 2020 &nbsp; &nbsp; &nbsp; &nbsp; **Flood Risk Assessment and Resilience Plan Development of Seoul using multidimensional spatial analysis framework** [[poster](https://drive.google.com/file/d/1KetUWL6CXgrbpvTFPV2UvpDSR71rPk3y/view?usp=sharing)] <br/>
 2020 &nbsp; &nbsp; &nbsp; &nbsp; **Speech Recognize Calendar** (Android App) [[code](https://github.com/jinhyung-park-info/SpeechRecognizeCalender)] <br/>
 2019 &nbsp; &nbsp; &nbsp; &nbsp; **Whack-A-Maze-Racer** (Android Game App) [[download](https://play.google.com/store/apps/details?id=com.wamr.myapplication)][[code](https://github.com/jinhyung-park-info/Whack-A-Maze-Racer)] <br/>
-2016 &nbsp; &nbsp; &nbsp; &nbsp; **Surviving at Yonsei** (Game) [[video](https://www.youtube.com/watch?v=MNkkJPtQbtw)] <br/>
+2016 &nbsp; &nbsp; &nbsp; &nbsp; **Surviving at Yonsei** (Interactive Game) [[demo](https://www.youtube.com/watch?v=MNkkJPtQbtw)] <br/>
 
 Skills
 ------
-**1. Programming Languages**
-  - Proficient : Python, C++, C
-  - Moderate : Java <br/>
-
+**1. Programming Languages**: Python, C++, C (Proficient), Java (Moderate) <br/>
 **2. Deep Learning Frameworks** : Tensorflow, Pytorch <br/>
 **3. External Libraries** : OpenGL, OpenCV, Three.js <br/>
 **4. Softwares** : Maya, Unity3D, Android Studio, Adobe Lightroom, Adobe Photoshop, Microsoft Powerpoint/Word/Excel <br/>
