@@ -44,7 +44,7 @@ Education
 Work Experience
 ------  
 Starting Dec 29th, 2021 &nbsp; &nbsp; &nbsp; &nbsp; **Software Developer** @ [NAVER](https://www.navercorp.com/en) (Seoul, Korea) <br/>
-Jun 2020 - Sep 2021 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; **Research Intern** @ [Computer Graphics and Applications Lab](http://cga.yonsei.ac.kr/) at Yonsei University (Seoul, Korea), <br/>
+Jun 2020 - Sep 2021 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; **Research Intern** @ [Computer Graphics and Applications Lab](http://cga.yonsei.ac.kr/) at Yonsei University (Seoul, Korea) <br/>
 Jul 2019 - Aug 2019 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; **Program Coordinator** @ [Hanguk Academy of Foreign Studies (HAFS) Camp](http://hafscamp.com/) (Yongin, Korea)  <br/>
 Mar 2017 - Dec 2018 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; **[KATUSA](https://8tharmy.korea.army.mil/site/about/katusa-soldier-program.asp)** @ Republic of Korea Army (Dongducheon, Korea)  <br/>
 Jun 2016 - Aug 2016 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; **Data Management Associate** @ [KRIHS](https://eng.krihs.re.kr/) (Sejong, Korea) <br/>
