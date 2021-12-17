@@ -82,11 +82,10 @@ analytics:
 author:
   name             : "Jinhyung Park"
   avatar           : "profile_new.jpg"
-  bio              : "Bachelor of Science in Engineering (Computer Science)"
+  bio              : "Software Developer at NAVER (starting Dec 29th, 2021)"
   location         : "Seoul, Korea"
   employer         :
-  googlescholar    : "https://scholar.google.com/citations?user=Uw7A-ksAAAAJ&hl=ko"
-  email            :
+  email            : "jh9604@yonsei.ac.kr"
   researchgate     :  
   uri              :
   bitbucket        :
@@ -102,13 +101,11 @@ author:
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
   vine             :
   weibo            :
   xing             :
