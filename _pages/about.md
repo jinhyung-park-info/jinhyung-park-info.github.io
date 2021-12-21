@@ -34,12 +34,12 @@ Education
 - B.S.E. in Computer Science & Engineering <br/>
 - B.S.E. in Urban Planning & Engineering <br/>
 - Admission and graduation with **highest distinction** <br/>
--    GPA     : **4.09 / 4.3**, Class Rank : **1 / 33** <br/>
+-    GPA     : **4.09 / 4.3**, CS Major GPA: **4.02 / 4.3**, Class Rank : **1 / 33** <br/>
 - 2 years of absense to fulfill compulsory military service <br/> <br/>
 
 **University of Toronto** (Toronto, Canada) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Sep 2019 - Apr 2020 <br/>
 - Computer Science Exchange Student
-- Major GPA  : **3.80 / 4.0** <br/>
+- Major GPA  : **3.8 / 4.0** <br/>
 
 Work Experience
 ------  
