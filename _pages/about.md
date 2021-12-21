@@ -64,7 +64,7 @@ Honors and Awards
 ------
 **(1) Academic Honors** <br/> <br/>
 2021 &nbsp; &nbsp; &nbsp; &nbsp; **Computer Science Graduation Capstone Project Competition** | Grand Prize, Yonsei University <br/>
-2020 &nbsp; &nbsp; &nbsp; &nbsp; **Urban Engineering Graduation Capstone Project Competition** | Excellence Prize, KOSHAM & Yonsei University <br/>
+2020 &nbsp; &nbsp; &nbsp; &nbsp; **Urban Engineering Graduation Capstone Project Exhibition** | Excellence Prize, KOSHAM & Yonsei University <br/>
 2020 &nbsp; &nbsp; &nbsp; &nbsp; **Semester High Honors** (Fall), Yonsei University <br/>
 2016 &nbsp; &nbsp; &nbsp; &nbsp; **Semester Honors** (Spring, Fall), Yonsei University <br/>
 2015 &nbsp; &nbsp; &nbsp; &nbsp; **2nd Residential College Academic Seminar** (Grand Prize), Yonsei University <br/> 
