@@ -41,15 +41,6 @@ Education
 - Computer Science Exchange Student
 - Major GPA  : **3.8 / 4.0** <br/>
 
-Work Experience
-------  
-Starting Dec 29th, 2021 &nbsp; &nbsp; &nbsp; &nbsp; **Software Developer** @ [NAVER](https://www.navercorp.com/en) (Seoul, Korea) <br/>
-Jun 2020 - Sep 2021 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; **Research Intern** @ [Computer Graphics and Applications Lab](http://cga.yonsei.ac.kr/) at Yonsei University (Seoul, Korea) <br/>
-Jul 2019 - Aug 2019 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; **Program Coordinator** @ [Hanguk Academy of Foreign Studies (HAFS) Camp](http://hafscamp.com/) (Yongin, Korea)  <br/>
-Mar 2017 - Dec 2018 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; **[KATUSA](https://8tharmy.korea.army.mil/site/about/katusa-soldier-program.asp)** @ Republic of Korea Army (Dongducheon, Korea)  <br/>
-Jun 2016 - Aug 2016 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; **Data Management Associate** @ [KRIHS](https://eng.krihs.re.kr/) (Sejong, Korea) <br/>
-
-
 Publications
 ------
 **Jinhyung Park**, Dohae Lee, In-Kwon Lee, "Flexible Networks for Learning Physical Dynamics of Deformable Objects", arXiv:2112.03728, 2021. (Submission under review)
@@ -58,7 +49,10 @@ Publications
 Scholarships and Fellowships
 -----
 2021-2022 &nbsp; &nbsp; &nbsp; &nbsp; **NC Fellowship - Neural Graphics Track**, NCSOFT <br/>
+- Granted to top-performing students in Computer Graphics courses at leading universities in Korea <br/>
+
 2015-2020 &nbsp; &nbsp; &nbsp; &nbsp; **National Scholarship for Science and Engineering**, Korea Student Aid Foundation <br/>
+- Merit-based full scholarship awarded to science/engineering students with top 3% admission score <br/>
 
 Honors and Awards
 ------
@@ -75,6 +69,16 @@ Honors and Awards
 2018 &nbsp; &nbsp; &nbsp; &nbsp; **Certificate of Appreciation**, United States Army <br/>
 2018 &nbsp; &nbsp; &nbsp; &nbsp; **Letter of Commendation**, Republic of Korea Army <br/>
 2017 &nbsp; &nbsp; &nbsp; &nbsp; **Certificate of Commendation**, Eighth United States Army <br/>
+
+
+Work Experience
+------  
+Starting Dec 29th, 2021 &nbsp; &nbsp; &nbsp; &nbsp; **Software Developer** @ [NAVER](https://www.navercorp.com/en) (Seoul, Korea) <br/>
+Jun 2020 - Sep 2021 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; **Research Intern** @ [Computer Graphics and Applications Lab](http://cga.yonsei.ac.kr/) at Yonsei University (Seoul, Korea) <br/>
+Jul 2019 - Aug 2019 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; **Program Coordinator** @ [Hanguk Academy of Foreign Studies (HAFS) Camp](http://hafscamp.com/) (Yongin, Korea)  <br/>
+Mar 2017 - Dec 2018 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; **[KATUSA](https://8tharmy.korea.army.mil/site/about/katusa-soldier-program.asp)** @ Republic of Korea Army (Dongducheon, Korea)  <br/>
+Jun 2016 - Aug 2016 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; **Data Management Associate** @ [KRIHS](https://eng.krihs.re.kr/) (Sejong, Korea) <br/>
+
 
 Projects
 ------
