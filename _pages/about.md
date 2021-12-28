@@ -80,6 +80,7 @@ Jul 2019 - Aug 2019 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; **Program Coordinator** @
 Mar 2017 - Dec 2018 &nbsp; &nbsp; &nbsp; &nbsp; **[KATUSA](https://8tharmy.korea.army.mil/site/about/katusa-soldier-program.asp)** @ Republic of Korea Army (Dongducheon, Korea)  <br/>
 Jun 2016 - Aug 2016 &nbsp; &nbsp; &nbsp; &nbsp; **Data Management Associate** @ [KRIHS](https://eng.krihs.re.kr/) (Sejong, Korea) <br/>
 
+For details, please visit my [linkedin](https://www.linkedin.com/in/jinhyung-park/) page.
 
 Projects
 ------
