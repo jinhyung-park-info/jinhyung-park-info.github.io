@@ -10,6 +10,7 @@ redirect_from:
 
 News
 ------
+**Dec 2021** &nbsp; Started to work as a software engineer at _NAVER_, @Seongnam <br/>
 **Nov 2021** &nbsp; 1 paper has been posted to arXiv <br/>
 **Aug 2021** &nbsp; Received a dual degree (B.S.E & B.S.E) from _Yonsei University_, @Seoul <br/>
 **Aug 2021** &nbsp; Won the grand prize in the Computer Science Graduation Captsone Project Competition at _Yonsei University_, @Seoul <br/>
@@ -98,4 +99,4 @@ Skills
 
 CV
 -----
-[CV](https://github.com/jinhyung-park-info/jinhyung-park-info.github.io/raw/master/_pages/Jinhyung_Park_CV.pdf)
+[CV](https://github.com/jinhyung-park-info/jinhyung-park-info.github.io/raw/master/_pages/CV_Jinhyung_Park.pdf)
