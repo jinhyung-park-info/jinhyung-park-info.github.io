@@ -13,7 +13,7 @@ News
 **Nov 2021** 1 paper has been posted to arXiv <br/>
 **Aug 2021** Received a dual degree (B.S.E & B.S.E) from _Yonsei University_, @Seoul <br/>
 **Aug 2021** Won the grand prize in the Computer Science Graduation Captsone Project Competition at _Yonsei University_, @Seoul <br/>
-**Jul 2021** Accepted to _NAVER_ as a Software Developer (deffered the offer to December 29th, 2021) <br/>
+**Jul 2021** Accepted to _NAVER_ as a Software Engineer (deffered the offer to December 2021) <br/>
 **Jul 2021** Received and joined the _2021 NC Fellowship - Neural Graphics Track_ <br/>
 **Jun 2020** Started to work as a research intern in the _Computer Graphics and Applications Lab_ at _Yonsei University_, @Seoul <br/>
 **Apr 2020** Completed my exchange program at the _University of Toronto_, @Toronto <br/>
@@ -26,7 +26,7 @@ Hello! I am a software engineer at [NAVER](https://www.navercorp.com/en). I rece
 My primary research interest lies at the intersection of computer graphics and computer vision: physics-based simulation, computer animation, robotics, and computational photography. My ultimate goal is to develop frameworks that can help us simulate, recreate, and manipulate the physical, visual world around us.
 
 **Ongoing**<br/>
-Currently, I am enrolled in the _NC Fellowship - Neural Graphics Track_ program, an AI-talent development program hosted and sponsored by [NCSOFT](https://kr.ncsoft.com/en/index.do). Along with specialized training sessions in computer graphics, I am currently developing a system that denoises motion capture data to generate realistic 3D character animation for game character development. <br/>
+Along with my professional career, I am also enrolled in the _NC Fellowship - Neural Graphics Track_ program, an AI-talent development program hosted and sponsored by [NCSOFT](https://kr.ncsoft.com/en/index.do). In conjunction with the program, I am taking specialized training sessions in advanced computer graphics and developing a system that can denoise motion capture data for generating realistic 3D character animation in game character development. <br/>
 
 Education
 ------
