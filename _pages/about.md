@@ -10,15 +10,15 @@ redirect_from:
 
 News
 ------
-**Dec 2021** &nbsp; Started to work as a software engineer at _NAVER_, @Seongnam <br/>
+**Dec 2021** &nbsp; Started to work as a Software Engineer at _NAVER_, @Seongnam <br/>
 **Nov 2021** &nbsp; 1 paper has been posted to arXiv <br/>
 **Aug 2021** &nbsp; Received a dual degree (B.S.E & B.S.E) from _Yonsei University_, @Seoul <br/>
 **Aug 2021** &nbsp; Won the grand prize in the Computer Science Graduation Captsone Project Competition at _Yonsei University_, @Seoul <br/>
 &nbsp; **Jul 2021** &nbsp; Accepted to _NAVER_ as a Software Engineer (deffered the offer to December 2021) <br/>
 &nbsp; **Jul 2021** &nbsp; Received and joined the _2021 NC Fellowship - Neural Graphics Track_ <br/>
-**Jun 2020** &nbsp; Started to work as a research intern in the _Computer Graphics and Applications Lab_ at _Yonsei University_, @Seoul <br/>
-**Apr 2020** &nbsp; Completed my exchange program at the _University of Toronto_, @Toronto <br/>
-**Sep 2019** &nbsp; Started my exchange program at the _University of Toronto_, @Toronto <br/>
+**Jun 2020** &nbsp; Started to work as a Research Intern in the _Computer Graphics and Applications Lab_ at _Yonsei University_, @Seoul <br/>
+**Apr 2020** &nbsp; Completed my exchange student program at the _University of Toronto_, @Toronto <br/>
+**Sep 2019** &nbsp; Started my exchange student program at the _University of Toronto_, @Toronto <br/>
 
 About Me
 ------
