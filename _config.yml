@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Jinhyung Park"
   avatar           : "profile_new.jpg"
-  bio              : "Software Developer at NAVER (starting Dec 29th, 2021)"
+  bio              : "Software Engineer at NAVER"
   location         : "Seoul, Korea"
   employer         :
   email            : "jh9604@yonsei.ac.kr"
@@ -100,7 +100,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : https://www.linkedin.com/in/jinhyung-park/
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
