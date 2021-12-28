@@ -21,7 +21,7 @@ News
 
 About Me
 ------
-Starting December 29th, 2021, I will be working as a software developer at [NAVER](https://www.navercorp.com/en). I recently graduated from [Yonsei University](https://www.yonsei.ac.kr/en_sc/) (Seoul, Korea) where I received a dual degree of BSE in Computer Science and Engineering and BSE in Urban Planning and Engineering with the highest distinction, and worked as a research intern at the [Computer Graphics and Applications Lab](http://cga.yonsei.ac.kr/), advised by Professor In-Kwon Lee. I was fully funded by [National Scholarship for Science and Engineering](https://www.kosaf.go.kr/eng/jsp/aid/aid02_01_01.jsp) for my undergraduate study, and a recipient of the 2021 NC Fellowship - Neural Graphics Track.
+Hello! I am a software engineer at [NAVER](https://www.navercorp.com/en). I recently graduated from [Yonsei University](https://www.yonsei.ac.kr/en_sc/) (Seoul, Korea) where I received a dual degree of B.S.E. in Computer Science and Engineering and B.S.E. in Urban Planning and Engineering with the highest distinction. During my time at Yonsei University, I worked as a research intern at the [Computer Graphics and Applications Lab](http://cga.yonsei.ac.kr/), advised by Professor In-Kwon Lee. I was fully funded by [National Scholarship for Science and Engineering](https://www.kosaf.go.kr/eng/jsp/aid/aid02_01_01.jsp) for my undergraduate study, and a recipient of the 2021 NC Fellowship - Neural Graphics Track.
 
 My primary research interest lies at the intersection of computer graphics and computer vision: physics-based simulation, computer animation, robotics, and computational photography. My ultimate goal is to develop frameworks that can help us simulate, recreate, and manipulate the physical, visual world around us.
 
@@ -73,7 +73,7 @@ Honors and Awards
 
 Work Experience
 ------  
-Starting Dec 29th, 2021 &nbsp; &nbsp; &nbsp; &nbsp; **Software Developer** @ [NAVER](https://www.navercorp.com/en) (Seoul, Korea) <br/>
+Dec 2021 - Present &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; **Software Engineer** @ [NAVER](https://www.navercorp.com/en) (Seoul, Korea) <br/>
 Jun 2020 - Sep 2021 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; **Research Intern** @ [Computer Graphics and Applications Lab](http://cga.yonsei.ac.kr/) at Yonsei University (Seoul, Korea) <br/>
 Jul 2019 - Aug 2019 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; **Program Coordinator** @ [Hanguk Academy of Foreign Studies (HAFS) Camp](http://hafscamp.com/) (Yongin, Korea)  <br/>
 Mar 2017 - Dec 2018 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; **[KATUSA](https://8tharmy.korea.army.mil/site/about/katusa-soldier-program.asp)** @ Republic of Korea Army (Dongducheon, Korea)  <br/>
@@ -98,4 +98,4 @@ Skills
 
 CV
 -----
-[CV](https://github.com/jinhyung-park-info/jinhyung-park-info.github.io/raw/master/_pages/CV_Jinhyung_Park.pdf)
+[CV](https://github.com/jinhyung-park-info/jinhyung-park-info.github.io/raw/master/_pages/Jinhyung_Park_CV.pdf)
