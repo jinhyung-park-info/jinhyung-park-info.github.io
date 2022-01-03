@@ -101,4 +101,4 @@ Skills
 
 CV
 -----
-[CV](https://github.com/jinhyung-park-info/jinhyung-park-info.github.io/raw/master/_pages/CV_Jinhyung_Park.pdf)
+[CV](https://github.com/jinhyung-park-info/jinhyung-park-info.github.io/raw/master/_pages/Jinhyung_Park_CV.pdf)
