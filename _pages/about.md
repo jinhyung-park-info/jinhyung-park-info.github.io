@@ -45,7 +45,6 @@ Publications
 ------
 - **Jinhyung Park**, Dohae Lee, In-Kwon Lee, "Flexible Networks for Learning Physical Dynamics of Deformable Objects", arXiv:2112.03728, 2021. (Submission under review)
 [[pdf](https://arxiv.org/pdf/2112.03728)] [[code](https://github.com/jinhyung-park-info/TP-Net)] <br/>
-
 - One other paper conditionally accepted to SIGGRAPH, 2022
 
 Scholarships and Fellowships
