@@ -10,6 +10,7 @@ redirect_from:
 
 News
 ------
+**Mar 2022** &nbsp; 1 paper has been conditionally accepted to _SIGGRAPH 2022_ <br/>
 **Dec 2021** &nbsp; Started to work as a Software Engineer at _NAVER_, @Seongnam <br/>
 **Nov 2021** &nbsp; 1 paper has been posted to arXiv <br/>
 **Aug 2021** &nbsp; Received a dual degree (B.S.E & B.S.E) from _Yonsei University_, @Seoul <br/>
@@ -23,12 +24,9 @@ News
 
 About Me
 ------
-Hello! Currently, I am a software engineer at [NAVER](https://www.navercorp.com/en). I recently graduated from [Yonsei University](https://www.yonsei.ac.kr/en_sc/) (Seoul, Korea) where I received a dual degree of B.S.E. in Computer Science and Engineering and B.S.E. in Urban Planning and Engineering with the highest distinction. During my time at Yonsei University, I worked as a research intern at the [Computer Graphics and Applications Lab](http://cga.yonsei.ac.kr/), advised by Professor In-Kwon Lee. I was fully funded by [National Scholarship for Science and Engineering](https://www.kosaf.go.kr/eng/jsp/aid/aid02_01_01.jsp) for my undergraduate study, and a recipient of the 2021 NC Fellowship - Neural Graphics Track.
+Hello! Currently, I am a software engineer at [NAVER](https://www.navercorp.com/en). I recently graduated from [Yonsei University](https://www.yonsei.ac.kr/en_sc/) (Seoul, Korea) where I received a dual degree of B.S.E. in Computer Science and Engineering and B.S.E. in Urban Planning and Engineering with the highest distinction. During my time at Yonsei University, I worked as a research intern at the [Computer Graphics and Applications Lab](http://cga.yonsei.ac.kr/), advised by Professor In-Kwon Lee. I was fully funded by [National Scholarship for Science and Engineering](https://www.kosaf.go.kr/eng/jsp/aid/aid02_01_01.jsp) for my undergraduate study, and a recipient of the 2021 NC Fellowship - Neural Graphics Track, sponsered by [NCSOFT](https://kr.ncsoft.com/en/index.do).
 
 My primary research interest lies at the intersection of computer graphics and computer vision: physics-based simulation, computer animation, robotics, and computational photography. My ultimate goal is to develop frameworks that can help us simulate, recreate, and manipulate the physical, visual world around us.
-
-**Ongoing**<br/>
-Along with my professional career, I am also enrolled in the _NC Fellowship - Neural Graphics Track_ program, an AI-talent development program hosted and sponsored by [NCSOFT](https://kr.ncsoft.com/en/index.do). In conjunction with the program, I am taking specialized training sessions in advanced computer graphics and developing a system that can denoise motion capture data for generating realistic 3D character animation in game character development. <br/>
 
 Education
 ------
@@ -45,13 +43,15 @@ Education
 
 Publications
 ------
-**Jinhyung Park**, Dohae Lee, In-Kwon Lee, "Flexible Networks for Learning Physical Dynamics of Deformable Objects", arXiv:2112.03728, 2021. (Submission under review)
-[[pdf](https://arxiv.org/pdf/2112.03728)] [[code](https://github.com/jinhyung-park-info/TP-Net)]
+- **Jinhyung Park**, Dohae Lee, In-Kwon Lee, "Flexible Networks for Learning Physical Dynamics of Deformable Objects", arXiv:2112.03728, 2021. (Submission under review)
+[[pdf](https://arxiv.org/pdf/2112.03728)] [[code](https://github.com/jinhyung-park-info/TP-Net)] <br/>
+
+- One other paper conditionally accepted to SIGGRAPH, 2022
 
 Scholarships and Fellowships
 -----
 2021-2022 &nbsp; &nbsp; &nbsp; &nbsp; **NC Fellowship - Neural Graphics Track**, NCSOFT <br/>
-- Granted to top-performing students in Computer Graphics courses at leading universities in Korea <br/>
+- Granted to top-performing students in Computer Graphics courses at leading universities in South Korea <br/>
 
 2015-2020 &nbsp; &nbsp; &nbsp; &nbsp; **National Scholarship for Science and Engineering**, Korea Student Aid Foundation <br/>
 - Merit-based full scholarship awarded to science/engineering students with top 3% admission score <br/>
@@ -85,7 +85,7 @@ For details, please visit my [linkedin](https://www.linkedin.com/in/jinhyung-par
 
 Projects
 ------
-2021 &nbsp; &nbsp; &nbsp; &nbsp; **Denoising Motion Capture Data** (in progress) <br/>
+2021 &nbsp; &nbsp; &nbsp; &nbsp; **Robust MoCap Denoiser for Character Animation** <br/>
 2021 &nbsp; &nbsp; &nbsp; &nbsp; **Simulating Point and Click Behavior in Implicit Adversarial Environment** [[video](https://www.youtube.com/watch?v=DLQu1RDsS6w&t=143s)][[code](https://github.com/SWCapstoneProject/Adversarial_PointAndClick)] <br/>
 2020 &nbsp; &nbsp; &nbsp; &nbsp; **Flood Risk Assessment and Resilience Plan Development of Seoul using multidimensional spatial analysis framework** [[poster](https://drive.google.com/file/d/1KetUWL6CXgrbpvTFPV2UvpDSR71rPk3y/view?usp=sharing)] <br/>
 2020 &nbsp; &nbsp; &nbsp; &nbsp; **Speech Recognize Calendar** (Android App) [[code](https://github.com/jinhyung-park-info/SpeechRecognizeCalender)] <br/>
@@ -94,7 +94,7 @@ Projects
 
 Skills
 ------
-**1. Programming Languages**: Python, C++, C (Proficient), Java (Moderate) <br/>
+**1. Programming Languages**: Python, Java (Proficient), C++, C, Javascript (Moderate) <br/>
 **2. Deep Learning Frameworks** : Tensorflow, Pytorch <br/>
 **3. External Libraries** : OpenGL, OpenCV, Three.js <br/>
 **4. Softwares** : Maya, Unity3D, Android Studio, Adobe Lightroom, Adobe Photoshop, Microsoft Powerpoint/Word/Excel <br/>
