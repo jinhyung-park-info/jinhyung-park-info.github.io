@@ -11,7 +11,7 @@ redirect_from:
 News
 ------
 **May 2022** &nbsp; 1 paper has been accepted to _SIGGRAPH 2022 (Journal Track)_ <br/>
-**Feb 2022** &nbsp; Completed the _2021 NC Fellowship - Neural Graphics Track_ program with 5th place at _NCSOFT_, @Seongnam (Remote) <br/>
+**Feb 2022** &nbsp; Completed the _2021 NC Fellowship - Neural Graphics Track_ program at _NCSOFT_, @Seongnam (Remote) <br/>
 **Dec 2021** &nbsp; Started to work as a Software Engineer at _NAVER_, @Seongnam <br/>
 **Nov 2021** &nbsp; 1 paper has been posted to arXiv <br/>
 **Aug 2021** &nbsp; Received a dual degree (B.S.E & B.S.E) from _Yonsei University_, @Seoul <br/>
