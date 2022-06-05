@@ -25,9 +25,9 @@ News
 
 About Me
 ------
-Hello! I am a software engineer at [NAVER](https://www.navercorp.com/en). I recently graduated from [Yonsei University](https://www.yonsei.ac.kr/en_sc/) (Seoul, Korea) where I received a dual degree of B.S.E. in Computer Science and Engineering and B.S.E. in Urban Planning and Engineering with the highest distinction. During my time at Yonsei University, I worked as a research intern at the [Computer Graphics and Applications Lab](http://cga.yonsei.ac.kr/), advised by Professor In-Kwon Lee. I was fully funded by [National Scholarship for Science and Engineering](https://www.kosaf.go.kr/eng/jsp/aid/aid02_01_01.jsp) for my undergraduate study, and a recipient of the 2021 NC Fellowship - Neural Graphics Track, sponsered by [NCSOFT](https://kr.ncsoft.com/en/index.do).
+Hello! I am a software engineer at _[NAVER](https://www.navercorp.com/en)_. I recently graduated from _[Yonsei University](https://www.yonsei.ac.kr/en_sc/)_ (Seoul, Korea) where I received a dual degree of B.S.E. in _Computer Science and Engineering_ and B.S.E. in _Urban Planning and Engineering_ with the highest distinction. During my time at _Yonsei University_, I worked as a research intern at the _[Computer Graphics and Applications Lab](http://cga.yonsei.ac.kr/)_, advised by Professor _In-Kwon Lee_. I was fully funded by the _[National Scholarship for Science and Engineering](https://www.kosaf.go.kr/eng/jsp/aid/aid02_01_01.jsp)_ for my undergraduate study, and a recipient of the _2021 NC Fellowship - Neural Graphics Track_, sponsered by _[NCSOFT](https://kr.ncsoft.com/en/index.do)_.
 
-My primary research interest lies at the intersection of computer graphics and computer vision: physics-based simulation, computer animation, robotics, and computational photography. My ultimate goal is to develop frameworks that can help us simulate, recreate, and manipulate the physical, visual world around us.
+My primary research interest lies at the intersection of **computer graphics** and **computer vision**: physics-based simulation, computer animation, robotics, and computational photography. My ultimate goal is to develop frameworks that can help us simulate, recreate, and manipulate the physical, visual world around us.
 
 Education
 ------
