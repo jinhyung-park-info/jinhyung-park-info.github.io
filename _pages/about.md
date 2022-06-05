@@ -47,7 +47,7 @@ Publications
 - **Jinhyung Park**, Dohae Lee, In-Kwon Lee, "Flexible Networks for Learning Physical Dynamics of Deformable Objects", arXiv:2112.03728, 2021. (Submission under review) &nbsp;
 [[pdf](https://arxiv.org/pdf/2112.03728)][[code](https://github.com/jinhyung-park-info/TP-Net)] <br/>
 - Sang-Bin Jeon, Soon-Uk Kwon, June-Young Hwang, Yong-Hun Cho, Hayeon
-Kim, **Jinhyung Park**, and In-Kwon Lee. "Dynamic Optimal Space Par titioning for Redirected Walking in Multi-user Environment", ACM Transactions on Graphics (TOG), 2022. [[pdf](http://cga.yonsei.ac.kr/uploads/arXiv_OSP_mainpaper.pdf)][[video](https://www.youtube.com/watch?v=Vq7TRMC1cB4&t=1s)][[code](https://github.com/AppleParfait/OSP-Archive)]
+Kim, **Jinhyung Park**, and In-Kwon Lee. "Dynamic Optimal Space Par titioning for Redirected Walking in Multi-user Environment", ACM Transactions on Graphics (TOG), 2022. (to appear) [[pdf](http://cga.yonsei.ac.kr/uploads/arXiv_OSP_mainpaper.pdf)][[video](https://www.youtube.com/watch?v=Vq7TRMC1cB4&t=1s)][[code](https://github.com/AppleParfait/OSP-Archive)] 
    - _Journal Track_ of _SIGGRAPH_ 2022
 
 Scholarships and Fellowships
