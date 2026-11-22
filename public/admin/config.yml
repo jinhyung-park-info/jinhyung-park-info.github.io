@@ -115,7 +115,7 @@ collections:
       - { name: location, label: Location, widget: string, required: false }
       - { name: start, label: Start (YYYY-MM or YYYY), widget: string }
       - { name: end, label: End (YYYY-MM, YYYY or Present), widget: string, default: Present }
-      - { name: category, label: Section, widget: select, options: [work, research, mentorship], default: work }
+      - { name: category, label: Section, widget: select, options: [work, research, mentorship, military, other], default: work }
       - { name: order, label: Sort order (higher = first), widget: number, value_type: int, default: 0 }
       - { name: body, label: Highlights, widget: markdown, required: false }
 

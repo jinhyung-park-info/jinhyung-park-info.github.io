@@ -29,7 +29,7 @@ const experience = defineCollection({
     location: z.string().optional(),
     start: z.string(), // e.g. "2021-12"
     end: z.string().default('Present'),
-    category: z.enum(['work', 'research', 'mentorship']).default('work'),
+    category: z.enum(['work', 'research', 'mentorship', 'military', 'other']).default('work'),
     order: z.number().default(0), // higher shows first
   }),
 });
