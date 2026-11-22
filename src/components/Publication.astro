@@ -1,6 +1,7 @@
 ---
 import type { CollectionEntry } from 'astro:content';
 import { render } from 'astro:content';
+import Thumb from './Thumb.astro';
 
 interface Props {
   pub: CollectionEntry<'publications'>;
@@ -8,7 +9,7 @@ interface Props {
 }
 
 const { pub, me } = Astro.props;
-const { title, authors, venue, year, links } = pub.data;
+const { title, authors, venue, year, links, image, hidden } = pub.data;
 const { Content } = await render(pub);
 const hasNotes = Boolean(pub.body?.trim());
 
@@ -16,21 +17,24 @@ const hasNotes = Boolean(pub.body?.trim());
 const parts = authors.split(me);
 ---
 
-<li class="entry">
-  <p class="entry-title">{title}</p>
-  <div class="entry-sub">
-    {parts.map((part, i) => (
-      <>
-        {part}
-        {i < parts.length - 1 && <span class="me">{me}</span>}
-      </>
-    ))}
-  </div>
-  <div class="entry-sub"><em>{venue}</em>, {year}</div>
-  {links.length > 0 && (
-    <div class="links">
-      {links.map((l) => <a href={l.url} target="_blank" rel="noopener">{l.label}</a>)}
+<li class="entry thumb-row">
+  <Thumb image={image} href={links[0]?.url} external />
+  <div class="thumb-text">
+    <p class="entry-title">{title}{hidden && <span class="pill-hidden">hidden</span>}</p>
+    <div class="entry-sub">
+      {parts.map((part, i) => (
+        <>
+          {part}
+          {i < parts.length - 1 && <span class="me">{me}</span>}
+        </>
+      ))}
     </div>
-  )}
-  {hasNotes && <div class="entry-body prose"><Content /></div>}
+    <div class="entry-sub"><em>{venue}</em>, {year}</div>
+    {links.length > 0 && (
+      <div class="links">
+        {links.map((l) => <a href={l.url} target="_blank" rel="noopener">{l.label}</a>)}
+      </div>
+    )}
+    {hasNotes && <div class="entry-body prose"><Content /></div>}
+  </div>
 </li>

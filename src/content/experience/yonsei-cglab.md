@@ -8,5 +8,5 @@ category: research
 order: 20
 ---
 
-- Led a research project end-to-end and published a first-author paper on a deep learning architecture that predicts the trajectory and deformation of real-world objects (25.5% more accurate than prior SOTA over 40 timesteps).
-- Designed a VR space-partitioning algorithm combining Voronoi diagrams with reinforcement learning, published in ACM TOG and presented at SIGGRAPH 2022.
+- Led a research project end-to-end and first-authored the resulting paper: designed a deep learning architecture that predicts the trajectory and deformation of real-world objects, achieving 25.5% higher accuracy than prior SOTA over 40 timesteps.
+- Designed a VR space-partitioning algorithm by combining Voronoi diagrams with reinforcement learning; published in ACM TOG and presented at SIGGRAPH 2022.

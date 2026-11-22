@@ -2,25 +2,28 @@ import { getCollection, getEntry } from 'astro:content';
 
 const isProd = import.meta.env.PROD;
 
+/** Hidden items are left out of the public site but still shown (with a badge) in `npm run dev`. */
+export const isVisible = ({ data }: { data: { hidden?: boolean } }) => !(isProd && data.hidden);
+
 export async function getProfile() {
   const profile = await getEntry('profile', 'profile');
   if (!profile) throw new Error('Missing src/content/profile/profile.md');
   return profile;
 }
 
-/** Published posts, newest first. Drafts are visible only in `npm run dev`. */
+/** Posts, newest first. Hidden posts are visible only in `npm run dev`. */
 export async function getPosts() {
-  const posts = await getCollection('blog', ({ data }) => !(isProd && data.draft));
+  const posts = await getCollection('blog', isVisible);
   return posts.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
 }
 
 export async function getProjects() {
-  const projects = await getCollection('projects', ({ data }) => !(isProd && data.draft));
+  const projects = await getCollection('projects', isVisible);
   return projects.sort((a, b) => b.data.order - a.data.order || a.data.title.localeCompare(b.data.title));
 }
 
 export async function getPublications() {
-  const pubs = await getCollection('publications');
+  const pubs = await getCollection('publications', isVisible);
   return pubs.sort((a, b) => b.data.year - a.data.year || a.data.title.localeCompare(b.data.title));
 }
 

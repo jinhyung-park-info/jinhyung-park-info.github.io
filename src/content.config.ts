@@ -13,8 +13,10 @@ const profile = defineCollection({
   loader: md('profile'),
   schema: z.object({
     name: z.string(),
-    headline: z.string(),
+    headline: z.string(), // first line on the home page (bold)
+    tagline: z.string().optional(), // second line on the home page
     location: z.string().optional(),
+    photo: z.string().optional(), // e.g. /images/profile.jpg (file in public/images/)
     email: z.string().optional(),
     links: z.array(link).default([]),
     interests: z.array(z.string()).default([]),
@@ -30,6 +32,7 @@ const experience = defineCollection({
     start: z.string(), // e.g. "2021-12"
     end: z.string().default('Present'),
     category: z.enum(['work', 'research', 'mentorship', 'military', 'other']).default('work'),
+    hidden: z.boolean().default(false), // true = not shown on the public site (still visible in `npm run dev`)
     order: z.number().default(0), // higher shows first
   }),
 });
@@ -43,6 +46,7 @@ const education = defineCollection({
     start: z.string().optional(),
     end: z.string(),
     order: z.number().default(0),
+    hidden: z.boolean().default(false), // true = not shown on the public site (still visible in `npm run dev`)
   }),
 });
 
@@ -53,6 +57,7 @@ const honors = defineCollection({
     issuer: z.string().optional(),
     year: z.string().optional(),
     order: z.number().default(0),
+    hidden: z.boolean().default(false), // true = not shown on the public site (still visible in `npm run dev`)
   }),
 });
 
@@ -61,13 +66,14 @@ const projects = defineCollection({
   schema: z.object({
     title: z.string(),
     summary: z.string(),
+    image: z.string().optional(), // teaser image, e.g. /images/my-project.png (file in public/images/)
     period: z.string().optional(),
     context: z.string().optional(), // e.g. "NAVER" or "Personal"
     tags: z.array(z.string()).default([]),
     links: z.array(link).default([]),
     featured: z.boolean().default(false),
+    hidden: z.boolean().default(false), // true = not shown on the public site (still visible in `npm run dev`)
     order: z.number().default(0),
-    draft: z.boolean().default(false),
   }),
 });
 
@@ -78,8 +84,10 @@ const publications = defineCollection({
     authors: z.string(), // write your own name exactly as in `profile.name` to highlight it
     venue: z.string(),
     year: z.number(),
+    image: z.string().optional(), // thumbnail, e.g. /images/paper.png
     links: z.array(link).default([]),
     selected: z.boolean().default(false),
+    hidden: z.boolean().default(false), // true = not shown on the public site (still visible in `npm run dev`)
   }),
 });
 
@@ -88,10 +96,11 @@ const blog = defineCollection({
   schema: z.object({
     title: z.string(),
     description: z.string().optional(),
+    image: z.string().optional(), // thumbnail, e.g. /images/post.png
     date: z.coerce.date(),
     updated: z.coerce.date().optional(),
     tags: z.array(z.string()).default([]),
-    draft: z.boolean().default(false),
+    hidden: z.boolean().default(false), // true = not shown on the public site (still visible in `npm run dev`)
   }),
 });
 

@@ -6,8 +6,8 @@ Astro로 만든 개인 사이트입니다. 모든 내용은 `src/content/` 아�
 
 | 탭 | 주소 | 내용 파일 |
 |---|---|---|
-| About | `/` | `src/content/profile/profile.md` (소개글, 링크, 관심 분야) |
-| Experience | `/experience` | `src/content/experience/`, `education/`, `honors/` |
+| About | `/` | `src/content/profile/profile.md` (소개글, 사진, 링크, 관심 분야) |
+| Work Experience | `/experience` | `src/content/experience/`, `education/`, `honors/` |
 | Projects | `/projects` | `src/content/projects/*.md` (파일 하나 = 프로젝트 하나, 상세 페이지 자동 생성) |
 | Publications | `/publications` | `src/content/publications/*.md` |
 | Blog | `/blog` | `src/content/blog/*.md` (태그 페이지와 RSS 자동 생성) |
@@ -29,7 +29,7 @@ Astro로 만든 개인 사이트입니다. 모든 내용은 `src/content/` 아�
 ### 방법 2: Markdown 파일 직접 편집
 
 ```bash
-npm run dev        # http://localhost:4321 에서 미리보기 (draft 글도 보임)
+npm run dev        # http://localhost:4321 에서 미리보기 (hidden 항목도 보임)
 # src/content/... 파일을 추가·수정·삭제
 git add -A && git commit -m "Add post" && git push   # push하면 자동 배포
 ```
@@ -42,7 +42,7 @@ title: Deduplicating web corpora with MinHash
 description: 한 줄 요약 (목록, RSS, 검색 결과에 표시)
 date: 2026-11-22
 tags: [data, llm]
-draft: false        # true면 실제 사이트에는 안 보이고 로컬 미리보기에서만 보임
+hidden: false       # true면 실제 사이트에는 안 보이고 로컬 미리보기에서만 보임
 ---
 
 본문. 코드 블록, 표, 수식($E=mc^2$, $$...$$), 이미지(![설명](/images/파일.png))를 쓸 수 있습니다.
@@ -50,6 +50,11 @@ draft: false        # true면 실제 사이트에는 안 보이고 로컬 미리
 
 - 파일 이름이 주소가 됩니다: `src/content/blog/minhash-dedup.md` → `/blog/minhash-dedup`
 - 이미지는 `public/images/`에 넣고 `/images/파일명`으로 참조합니다(웹 편집기로 올리면 자동 처리).
+- 프로필 사진: `profile.md`의 `photo` (기본값 `/images/profile.jpg`). /admin → About & Profile → Profile photo에서 바꿀 수 있습니다.
+- 공개 여부: 모든 항목(Work Experience, Education, Honors, Projects, Publications, Blog)에 `hidden` 스위치가 있습니다. /admin에서 **Hidden**을 켜거나 파일에 `hidden: true`를 쓰면 실제 사이트에서는 빠지고, `npm run dev` 미리보기에서는 "hidden" 표시와 함께 보입니다. 한 섹션의 항목이 모두 숨겨지면 섹션 제목도 함께 사라집니다.
+- 썸네일: Projects·Publications·Blog 파일의 `image` (예: `/images/my-project.png`). /admin에서 각 항목의 Teaser image / Thumbnail로 업로드·선택하면 목록 왼쪽에 표시되고, 비어 있으면 회색 자리만 보입니다. 가로세로 4:3 비율이 가장 잘 맞습니다. 프로젝트와 블로그 글은 상세 페이지 맨 위에도 크게 표시됩니다.
+- 홈 화면 첫 두 줄: `profile.md`의 `headline`(굵게)과 `tagline`.
+- 홈 화면 Projects·Publications: /admin에서 "Show on home page"를 켠 항목(파일의 `featured: true` / `selected: true`)이 모두 표시됩니다. 하나도 켜지 않으면 위에서부터 3개가 대신 표시됩니다.
 - 정렬: Experience, Projects, Honors는 `order` 값이 큰 것이 위로 옵니다. Projects의 `featured: true`, Publications의 `selected: true`는 홈 화면에 표시됩니다.
 
 ## 배포

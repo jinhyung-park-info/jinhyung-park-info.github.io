@@ -33,10 +33,11 @@ collections:
     fields:
       - { name: title, label: Title, widget: string }
       - { name: description, label: Description (shown in previews & RSS), widget: string, required: false }
+      - { name: image, label: Thumbnail (shown left of the post in the list), widget: image, required: false }
       - { name: date, label: Date, widget: datetime, format: "YYYY-MM-DD", time_format: false }
       - { name: updated, label: Last updated, widget: datetime, format: "YYYY-MM-DD", time_format: false, required: false }
       - { name: tags, label: Tags, widget: list, required: false }
-      - { name: draft, label: Draft (hide from the live site), widget: boolean, default: false }
+      - { name: hidden, label: Hidden (not shown on the public site), widget: boolean, default: false }
       - { name: body, label: Body, widget: markdown }
 
   # ---------------- Projects ----------------
@@ -54,6 +55,7 @@ collections:
     fields:
       - { name: title, label: Title, widget: string }
       - { name: summary, label: One-line summary, widget: text }
+      - { name: image, label: Teaser image (shown left of the project in the list), widget: image, required: false }
       - { name: context, label: Context (e.g. NAVER, Personal, Yonsei), widget: string, required: false }
       - { name: period, label: Period (e.g. 2025), widget: string, required: false }
       - { name: tags, label: Tags, widget: list, required: false }
@@ -66,7 +68,7 @@ collections:
           - { name: url, label: URL, widget: string }
       - { name: featured, label: Show on home page, widget: boolean, default: false }
       - { name: order, label: Sort order (higher = first), widget: number, value_type: int, default: 0 }
-      - { name: draft, label: Draft (hide from the live site), widget: boolean, default: false }
+      - { name: hidden, label: Hidden (not shown on the public site), widget: boolean, default: false }
       - { name: body, label: Details, widget: markdown, required: false }
 
   # ---------------- Publications ----------------
@@ -86,7 +88,9 @@ collections:
       - { name: authors, label: Authors (your name is bolded automatically), widget: string }
       - { name: venue, label: Venue, widget: string }
       - { name: year, label: Year, widget: number, value_type: int }
+      - { name: image, label: Thumbnail (shown left of the paper), widget: image, required: false }
       - { name: selected, label: Show on home page, widget: boolean, default: false }
+      - { name: hidden, label: Hidden (not shown on the public site), widget: boolean, default: false }
       - name: links
         label: Links (Paper, PDF, Code, Video…)
         widget: list
@@ -98,7 +102,7 @@ collections:
 
   # ---------------- Experience ----------------
   - name: experience
-    label: Experience
+    label: Work Experience
     label_singular: Position
     folder: src/content/experience
     extension: md
@@ -116,6 +120,7 @@ collections:
       - { name: start, label: Start (YYYY-MM or YYYY), widget: string }
       - { name: end, label: End (YYYY-MM, YYYY or Present), widget: string, default: Present }
       - { name: category, label: Section, widget: select, options: [work, research, mentorship, military, other], default: work }
+      - { name: hidden, label: Hidden (not shown on the public site), widget: boolean, default: false }
       - { name: order, label: Sort order (higher = first), widget: number, value_type: int, default: 0 }
       - { name: body, label: Highlights, widget: markdown, required: false }
 
@@ -134,6 +139,7 @@ collections:
     fields:
       - { name: school, label: School, widget: string }
       - { name: degree, label: Degree / program, widget: string }
+      - { name: hidden, label: Hidden (not shown on the public site), widget: boolean, default: false }
       - { name: location, label: Location, widget: string, required: false }
       - { name: start, label: Start (YYYY-MM), widget: string, required: false }
       - { name: end, label: End (YYYY-MM), widget: string }
@@ -154,6 +160,7 @@ collections:
     fields:
       - { name: title, label: Title, widget: string }
       - { name: issuer, label: Issuer, widget: string, required: false }
+      - { name: hidden, label: Hidden (not shown on the public site), widget: boolean, default: false }
       - { name: year, label: Year, widget: string, required: false }
       - { name: order, label: Sort order (higher = first), widget: number, value_type: int, default: 0 }
       - { name: body, label: Description, widget: markdown, required: false }
@@ -168,8 +175,10 @@ collections:
         format: frontmatter
         fields:
           - { name: name, label: Name, widget: string }
-          - { name: headline, label: Headline, widget: string }
+          - { name: headline, label: Headline (first line, bold), widget: string }
+          - { name: tagline, label: Tagline (second line), widget: string, required: false }
           - { name: location, label: Location, widget: string, required: false }
+          - { name: photo, label: Profile photo (shown on the home page), widget: image, required: false }
           - { name: email, label: Public email, widget: string, required: false }
           - name: links
             label: Links (GitHub, LinkedIn, Scholar…)

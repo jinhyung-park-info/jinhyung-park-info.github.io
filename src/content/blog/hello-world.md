@@ -1,12 +1,12 @@
 ---
 title: "Sample post: what Markdown can do here"
-description: A draft that shows the formatting available on this blog. It only appears in local preview.
+description: A hidden sample post that shows the formatting available on this blog. It only appears in local preview.
 date: 2026-11-22
 tags: [meta]
-draft: true
+hidden: true
 ---
 
-This post is a **draft** (`draft: true`), so it appears only when you run the site locally. Delete it or use it as a template.
+This post is **hidden** (`hidden: true`), so it appears only when you run the site locally. Delete it or use it as a template.
 
 ## Code
 

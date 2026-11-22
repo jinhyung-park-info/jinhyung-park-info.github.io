@@ -8,6 +8,7 @@ tags: [Android, Java, MVVM]
 links:
   - label: Code
     url: https://github.com/jinhyung-park-info/SpeechRecognizeCalender
+featured: true
 order: 27
 ---
 

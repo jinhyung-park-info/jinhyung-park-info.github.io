@@ -1,0 +1,29 @@
+---
+// Thumbnail slot shown to the left of a project, publication, or blog post.
+// With no image it renders an empty placeholder so every row keeps the same layout.
+interface Props {
+  image?: string;
+  href?: string;
+  external?: boolean;
+}
+
+const { image, href, external = false } = Astro.props;
+const Tag = href ? 'a' : 'div';
+const linkProps = href
+  ? { href, tabindex: -1, 'aria-hidden': 'true', ...(external ? { target: '_blank', rel: 'noopener' } : {}) }
+  : { 'aria-hidden': 'true' };
+---
+
+<Tag class="teaser" {...linkProps}>
+  {image ? (
+    <img src={image} alt="" loading="lazy" />
+  ) : (
+    <span class="teaser-empty">
+      <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="3" y="4" width="18" height="16" rx="2" />
+        <circle cx="8.5" cy="9.5" r="1.5" />
+        <path d="m21 16-5-5-9 9" />
+      </svg>
+    </span>
+  )}
+</Tag>

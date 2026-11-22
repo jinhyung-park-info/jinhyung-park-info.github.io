@@ -10,6 +10,7 @@ links:
     url: https://github.com/SWCapstoneProject/Adversarial_PointAndClick
   - label: Video
     url: https://www.youtube.com/watch?v=DLQu1RDsS6w
+featured: true
 order: 29
 ---
 

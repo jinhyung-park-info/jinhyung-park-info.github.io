@@ -3,6 +3,7 @@ title: "Examining the socio-spatial patterns of bus shelters with deep learning 
 authors: Junghwan Kim, Jinhyung Park, et al.
 venue: Cities, Vol. 148
 year: 2024
+selected: false
 links:
   - label: Paper
     url: https://www.sciencedirect.com/science/article/abs/pii/S0264275124000660

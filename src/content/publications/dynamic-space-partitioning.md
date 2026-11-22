@@ -3,7 +3,7 @@ title: Dynamic Optimal Space Partitioning for Redirected Walking in Multi-user E
 authors: Sang-Bin Jeon, Soon-Uk Kwon, June-Young Hwang, Yong-Hun Cho, Hayeon Kim, Jinhyung Park, In-Kwon Lee
 venue: ACM Transactions on Graphics (TOG), 41(4) · SIGGRAPH 2022
 year: 2022
-selected: true
+selected: false
 links:
   - label: Paper
     url: https://dl.acm.org/doi/abs/10.1145/3528223.3530113

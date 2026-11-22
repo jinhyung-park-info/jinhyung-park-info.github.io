@@ -1,6 +1,7 @@
 ---
 import Base from '../../../layouts/Base.astro';
-import { getPosts, formatDate, slugify } from '../../../lib/content';
+import PostItem from '../../../components/PostItem.astro';
+import { getPosts, slugify } from '../../../lib/content';
 
 export async function getStaticPaths() {
   const posts = await getPosts();
@@ -17,10 +18,7 @@ const { tag, posts } = Astro.props;
 <Base title={`#${tag}`} description={`Posts tagged ${tag}.`}>
   <a class="back" href="/blog">← All posts</a>
   <h1>#{tag}</h1>
-  {posts.map((post) => (
-    <div class="post-row">
-      <time datetime={post.data.date.toISOString()}>{formatDate(post.data.date)}</time>
-      <a href={`/blog/${post.id}`}>{post.data.title}</a>
-    </div>
-  ))}
+  <ul class="entry-list">
+    {posts.map((post) => <PostItem post={post} />)}
+  </ul>
 </Base>

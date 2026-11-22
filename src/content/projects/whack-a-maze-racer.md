@@ -8,6 +8,7 @@ tags: [Android, Java, Design Patterns]
 links:
   - label: Code
     url: https://github.com/jinhyung-park-info/Whack-A-Maze-Racer
+featured: true
 order: 26
 ---
 

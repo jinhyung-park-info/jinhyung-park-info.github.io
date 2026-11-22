@@ -1,0 +1,25 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import Thumb from './Thumb.astro';
+
+interface Props {
+  project: CollectionEntry<'projects'>;
+}
+
+const { project: p } = Astro.props;
+const href = `/projects/${p.id}`;
+const meta = [p.data.context, p.data.period].filter(Boolean).join(' · ');
+---
+
+<li class="entry thumb-row">
+  <Thumb image={p.data.image} href={href} />
+  <div class="thumb-text">
+    <div class="entry-head">
+      <a class="entry-title" href={href}>{p.data.title}</a>
+      {meta && <span class="entry-meta">{meta}</span>}
+    </div>
+    <div class="entry-body muted">{p.data.summary}</div>
+    {p.data.hidden && <span class="pill-hidden">hidden</span>}
+    {p.data.tags.length > 0 && <ul class="tags">{p.data.tags.map((t) => <li class="tag">{t}</li>)}</ul>}
+  </div>
+</li>

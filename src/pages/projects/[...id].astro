@@ -11,7 +11,7 @@ export async function getStaticPaths() {
 
 const { project } = Astro.props;
 const { Content } = await render(project);
-const { title, summary, period, context, tags, links } = project.data;
+const { title, summary, image, period, context, tags, links } = project.data;
 ---
 
 <Base title={title} description={summary}>
@@ -26,6 +26,7 @@ const { title, summary, period, context, tags, links } = project.data;
       )}
       {tags.length > 0 && <ul class="tags">{tags.map((t) => <li class="tag">{t}</li>)}</ul>}
     </header>
+    {image && <img class="project-hero" src={image} alt={title} />}
     <div class="prose">
       <Content />
     </div>

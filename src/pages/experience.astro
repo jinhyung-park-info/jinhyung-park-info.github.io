@@ -1,11 +1,17 @@
 ---
 import { getCollection, render } from 'astro:content';
 import Base from '../layouts/Base.astro';
-import { byOrder, range } from '../lib/content';
+import { byOrder, range, isVisible } from '../lib/content';
 
-const experience = byOrder(await getCollection('experience'));
-const education = byOrder(await getCollection('education'));
-const honors = byOrder(await getCollection('honors'));
+// Headings are decided from all items (hidden included), so a section whose items are all
+// hidden keeps its title; only the visible items are listed under it.
+const allExperience = await getCollection('experience');
+const hasEducation = (await getCollection('education')).length > 0;
+const hasHonors = (await getCollection('honors')).length > 0;
+
+const experience = byOrder(await getCollection('experience', isVisible));
+const education = byOrder(await getCollection('education', isVisible));
+const honors = byOrder(await getCollection('honors', isVisible));
 
 const groups = [
   { key: 'work', label: 'Work' },
@@ -22,21 +28,22 @@ const body = (e: { id: string; collection: string; body?: string }) =>
   e.body?.trim() ? rendered.get(e.id + e.collection) : undefined;
 ---
 
-<Base title="Experience" description="Work experience, research, education, and honors.">
-  <h1>Experience</h1>
+<Base title="Work Experience" description="Work experience, research, education, and honors.">
+  <h1>Work Experience</h1>
 
   {groups.map(({ key, label }) => {
     const items = experience.filter((e) => e.data.category === key);
-    return items.length > 0 && (
+    const hasSection = allExperience.some((e) => e.data.category === key);
+    return hasSection && (
       <section>
         <h2 class="section-title">{label}</h2>
-        <ul class="entry-list">
+        {items.length > 0 && <ul class="entry-list">
           {items.map((e) => {
             const Body = body(e);
             return (
               <li class="entry">
                 <div class="entry-head">
-                  <p class="entry-title">{e.data.organization}</p>
+                  <p class="entry-title">{e.data.organization}{e.data.hidden && <span class="pill-hidden">hidden</span>}</p>
                   <span class="entry-meta">{range(e.data.start, e.data.end)}</span>
                 </div>
                 <div class="entry-sub">{e.data.role}{e.data.location && ` · ${e.data.location}`}</div>
@@ -44,12 +51,12 @@ const body = (e: { id: string; collection: string; body?: string }) =>
               </li>
             );
           })}
-        </ul>
+        </ul>}
       </section>
     );
   })}
 
-  {education.length > 0 && (
+  {hasEducation && (
     <section>
       <h2 class="section-title">Education</h2>
       <ul class="entry-list">
@@ -58,7 +65,7 @@ const body = (e: { id: string; collection: string; body?: string }) =>
           return (
             <li class="entry">
               <div class="entry-head">
-                <p class="entry-title">{e.data.school}</p>
+                <p class="entry-title">{e.data.school}{e.data.hidden && <span class="pill-hidden">hidden</span>}</p>
                 <span class="entry-meta">{range(e.data.start, e.data.end)}</span>
               </div>
               <div class="entry-sub">{e.data.degree}{e.data.location && ` · ${e.data.location}`}</div>
@@ -70,7 +77,7 @@ const body = (e: { id: string; collection: string; body?: string }) =>
     </section>
   )}
 
-  {honors.length > 0 && (
+  {hasHonors && (
     <section>
       <h2 class="section-title">Honors & Awards</h2>
       <ul class="entry-list">
@@ -79,7 +86,7 @@ const body = (e: { id: string; collection: string; body?: string }) =>
           return (
             <li class="entry">
               <div class="entry-head">
-                <p class="entry-title">{h.data.title}</p>
+                <p class="entry-title">{h.data.title}{h.data.hidden && <span class="pill-hidden">hidden</span>}</p>
                 {h.data.year && <span class="entry-meta">{h.data.year}</span>}
               </div>
               {h.data.issuer && <div class="entry-sub">{h.data.issuer}</div>}

@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
-import { getPosts, formatDate, slugify } from '../../lib/content';
+import PostItem from '../../components/PostItem.astro';
+import { getPosts, slugify } from '../../lib/content';
 
 const posts = await getPosts();
 const tags = [...new Set(posts.flatMap((p) => p.data.tags))].sort();
@@ -22,15 +23,9 @@ const years = [...new Set(posts.map((p) => p.data.date.getUTCFullYear()))];
   {years.map((year) => (
     <section>
       <h2 class="section-title">{year}</h2>
-      {posts.filter((p) => p.data.date.getUTCFullYear() === year).map((post) => (
-        <div class="post-row">
-          <time datetime={post.data.date.toISOString()}>{formatDate(post.data.date)}</time>
-          <span>
-            <a href={`/blog/${post.id}`}>{post.data.title}</a>
-            {post.data.draft && <span class="pill-draft">draft</span>}
-          </span>
-        </div>
-      ))}
+      <ul class="entry-list">
+        {posts.filter((p) => p.data.date.getUTCFullYear() === year).map((post) => <PostItem post={post} />)}
+      </ul>
     </section>
   ))}
 </Base>

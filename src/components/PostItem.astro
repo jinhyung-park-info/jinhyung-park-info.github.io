@@ -1,0 +1,28 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import Thumb from './Thumb.astro';
+import { formatDate, slugify } from '../lib/content';
+
+interface Props {
+  post: CollectionEntry<'blog'>;
+}
+
+const { post } = Astro.props;
+const href = `/blog/${post.id}`;
+const { title, description, date, tags, hidden, image } = post.data;
+---
+
+<li class="entry thumb-row">
+  <Thumb image={image} href={href} />
+  <div class="thumb-text">
+    <div class="entry-head">
+      <a class="entry-title" href={href}>{title}</a>
+      <time class="entry-meta" datetime={date.toISOString()}>{formatDate(date)}</time>
+    </div>
+    {description && <div class="entry-body muted">{description}</div>}
+    {hidden && <span class="pill-hidden">hidden</span>}
+    {tags.length > 0 && (
+      <ul class="tags">{tags.map((t) => <li><a class="tag" href={`/blog/tags/${slugify(t)}`}>{t}</a></li>)}</ul>
+    )}
+  </div>
+</li>

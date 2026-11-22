@@ -3,10 +3,10 @@ import { getPosts, getProfile } from '../lib/content';
 
 export async function GET(context) {
   const profile = await getProfile();
-  const posts = (await getPosts()).filter((p) => !p.data.draft);
+  const posts = (await getPosts()).filter((p) => !p.data.hidden);
   return rss({
     title: `${profile.data.name} — Blog`,
-    description: profile.data.headline,
+    description: [profile.data.headline, profile.data.tagline].filter(Boolean).join(' · '),
     site: context.site,
     items: posts.map((post) => ({
       title: post.data.title,
