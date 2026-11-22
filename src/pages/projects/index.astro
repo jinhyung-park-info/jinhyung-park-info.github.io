@@ -1,0 +1,28 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getProjects } from '../../lib/content';
+
+const projects = await getProjects();
+---
+
+<Base title="Projects" description="Systems, ML, and research projects.">
+  <h1>Projects</h1>
+  {projects.length === 0 && <div class="empty">No projects yet.</div>}
+  <ul class="entry-list">
+    {projects.map((p) => (
+      <li class="entry">
+        <div class="entry-head">
+          <a class="entry-title" href={`/projects/${p.id}`}>{p.data.title}</a>
+          {(p.data.period || p.data.context) && (
+            <span class="entry-meta">{[p.data.context, p.data.period].filter(Boolean).join(' · ')}</span>
+          )}
+        </div>
+        <div class="entry-body muted">{p.data.summary}</div>
+        {p.data.draft && <span class="pill-draft">draft</span>}
+        {p.data.tags.length > 0 && (
+          <ul class="tags">{p.data.tags.map((t) => <li class="tag">{t}</li>)}</ul>
+        )}
+      </li>
+    ))}
+  </ul>
+</Base>

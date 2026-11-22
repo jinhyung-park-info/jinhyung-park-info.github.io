@@ -1,0 +1,37 @@
+---
+import 'katex/dist/katex.min.css';
+import { render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { getPosts, formatDate, slugify } from '../../lib/content';
+
+export async function getStaticPaths() {
+  const posts = await getPosts();
+  return posts.map((post) => ({ params: { id: post.id }, props: { post } }));
+}
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+const { title, description, date, updated, tags, draft } = post.data;
+const words = (post.body ?? '').split(/\s+/).filter(Boolean).length;
+const minutes = Math.max(1, Math.round(words / 230));
+---
+
+<Base title={title} description={description}>
+  <article>
+    <header class="post-header">
+      <a class="back" href="/blog">← Blog</a>
+      <h1>{title}{draft && <span class="pill-draft">draft</span>}</h1>
+      <p class="faint small">
+        <time datetime={date.toISOString()}>{formatDate(date)}</time>
+        {updated && <> · Updated {formatDate(updated)}</>}
+        {' · '}{minutes} min read
+      </p>
+      {tags.length > 0 && (
+        <ul class="tags">{tags.map((t) => <li><a class="tag" href={`/blog/tags/${slugify(t)}`}>{t}</a></li>)}</ul>
+      )}
+    </header>
+    <div class="prose">
+      <Content />
+    </div>
+  </article>
+</Base>

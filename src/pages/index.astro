@@ -1,0 +1,79 @@
+---
+import { render } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import { getProfile, getPosts, getProjects, getPublications, formatDate } from '../lib/content';
+import Publication from '../components/Publication.astro';
+
+const profile = await getProfile();
+const { Content } = await render(profile);
+const { headline, location, interests, email, links } = profile.data;
+
+const posts = (await getPosts()).slice(0, 5);
+const featured = (await getProjects()).filter((p) => p.data.featured).slice(0, 4);
+const selectedPubs = (await getPublications()).filter((p) => p.data.selected);
+---
+
+<Base>
+  <p class="lead">{headline}{location && <span class="faint"> · {location}</span>}</p>
+
+  <div class="prose">
+    <Content />
+  </div>
+
+  <div class="links" style="margin-bottom:18px">
+    {email && <a href={`mailto:${email}`}>Email</a>}
+    {links.map((l) => <a href={l.url} target="_blank" rel="me noopener">{l.label}</a>)}
+    <a href="/experience">CV</a>
+  </div>
+
+  {interests.length > 0 && (
+    <ul class="tags" aria-label="Interests">
+      {interests.map((i) => <li class="tag">{i}</li>)}
+    </ul>
+  )}
+
+  <h2 class="section-title">Recent writing</h2>
+  {posts.length > 0 ? (
+    <div>
+      {posts.map((post) => (
+        <div class="post-row">
+          <time datetime={post.data.date.toISOString()}>{formatDate(post.data.date)}</time>
+          <span>
+            <a href={`/blog/${post.id}`}>{post.data.title}</a>
+            {post.data.draft && <span class="pill-draft">draft</span>}
+          </span>
+        </div>
+      ))}
+      <p class="small" style="margin-top:10px"><a href="/blog">All posts →</a></p>
+    </div>
+  ) : (
+    <p class="muted small">Posts are on the way.</p>
+  )}
+
+  {featured.length > 0 && (
+    <>
+      <h2 class="section-title">Selected projects</h2>
+      <ul class="entry-list">
+        {featured.map((p) => (
+          <li class="entry">
+            <div class="entry-head">
+              <a class="entry-title" href={`/projects/${p.id}`}>{p.data.title}</a>
+              {p.data.context && <span class="entry-meta">{p.data.context}</span>}
+            </div>
+            <div class="entry-body muted">{p.data.summary}</div>
+          </li>
+        ))}
+      </ul>
+      <p class="small"><a href="/projects">All projects →</a></p>
+    </>
+  )}
+
+  {selectedPubs.length > 0 && (
+    <>
+      <h2 class="section-title">Selected publications</h2>
+      <ul class="entry-list">
+        {selectedPubs.map((pub) => <Publication pub={pub} me={profile.data.name} />)}
+      </ul>
+    </>
+  )}
+</Base>

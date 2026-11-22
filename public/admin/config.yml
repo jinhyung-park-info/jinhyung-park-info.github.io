@@ -1,0 +1,181 @@
+# Web editor configuration (Sveltia CMS, Decap/Netlify CMS compatible).
+# Open https://<your-site>/admin, sign in with a GitHub token, and edit any tab.
+# Every save becomes a commit to the repo below, and GitHub Actions redeploys the site (~1 min).
+
+backend:
+  name: github
+  repo: jinhyung-park-info/jinhyung-park-info.github.io
+  branch: master
+  commit_messages:
+    create: "Add {{collection}} “{{slug}}”"
+    update: "Update {{collection}} “{{slug}}”"
+    delete: "Delete {{collection}} “{{slug}}”"
+
+media_folder: public/images
+public_folder: /images
+
+site_url: https://jinhyung-park-info.github.io
+display_url: https://jinhyung-park-info.github.io
+
+collections:
+  # ---------------- Blog ----------------
+  - name: blog
+    label: Blog
+    label_singular: Post
+    folder: src/content/blog
+    extension: md
+    format: frontmatter
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    summary: "{{title}} — {{date}}"
+    sortable_fields: { fields: [date, title], default: { field: date, direction: descending } }
+    fields:
+      - { name: title, label: Title, widget: string }
+      - { name: description, label: Description (shown in previews & RSS), widget: string, required: false }
+      - { name: date, label: Date, widget: datetime, format: "YYYY-MM-DD", time_format: false }
+      - { name: updated, label: Last updated, widget: datetime, format: "YYYY-MM-DD", time_format: false, required: false }
+      - { name: tags, label: Tags, widget: list, required: false }
+      - { name: draft, label: Draft (hide from the live site), widget: boolean, default: false }
+      - { name: body, label: Body, widget: markdown }
+
+  # ---------------- Projects ----------------
+  - name: projects
+    label: Projects
+    label_singular: Project
+    folder: src/content/projects
+    extension: md
+    format: frontmatter
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    summary: "{{title}}"
+    sortable_fields: { fields: [order, title], default: { field: order, direction: descending } }
+    fields:
+      - { name: title, label: Title, widget: string }
+      - { name: summary, label: One-line summary, widget: text }
+      - { name: context, label: Context (e.g. NAVER, Personal, Yonsei), widget: string, required: false }
+      - { name: period, label: Period (e.g. 2025), widget: string, required: false }
+      - { name: tags, label: Tags, widget: list, required: false }
+      - name: links
+        label: Links
+        widget: list
+        required: false
+        fields:
+          - { name: label, label: Label, widget: string }
+          - { name: url, label: URL, widget: string }
+      - { name: featured, label: Show on home page, widget: boolean, default: false }
+      - { name: order, label: Sort order (higher = first), widget: number, value_type: int, default: 0 }
+      - { name: draft, label: Draft (hide from the live site), widget: boolean, default: false }
+      - { name: body, label: Details, widget: markdown, required: false }
+
+  # ---------------- Publications ----------------
+  - name: publications
+    label: Publications
+    label_singular: Publication
+    folder: src/content/publications
+    extension: md
+    format: frontmatter
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    summary: "{{year}} · {{title}}"
+    sortable_fields: { fields: [year, title], default: { field: year, direction: descending } }
+    fields:
+      - { name: title, label: Title, widget: string }
+      - { name: authors, label: Authors (your name is bolded automatically), widget: string }
+      - { name: venue, label: Venue, widget: string }
+      - { name: year, label: Year, widget: number, value_type: int }
+      - { name: selected, label: Show on home page, widget: boolean, default: false }
+      - name: links
+        label: Links (Paper, PDF, Code, Video…)
+        widget: list
+        required: false
+        fields:
+          - { name: label, label: Label, widget: string }
+          - { name: url, label: URL, widget: string }
+      - { name: body, label: Notes / abstract (optional), widget: markdown, required: false }
+
+  # ---------------- Experience ----------------
+  - name: experience
+    label: Experience
+    label_singular: Position
+    folder: src/content/experience
+    extension: md
+    format: frontmatter
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    identifier_field: organization
+    summary: "{{organization}} — {{role}}"
+    sortable_fields: { fields: [order], default: { field: order, direction: descending } }
+    fields:
+      - { name: organization, label: Organization, widget: string }
+      - { name: role, label: Role, widget: string }
+      - { name: location, label: Location, widget: string, required: false }
+      - { name: start, label: Start (YYYY-MM or YYYY), widget: string }
+      - { name: end, label: End (YYYY-MM, YYYY or Present), widget: string, default: Present }
+      - { name: category, label: Section, widget: select, options: [work, research, mentorship], default: work }
+      - { name: order, label: Sort order (higher = first), widget: number, value_type: int, default: 0 }
+      - { name: body, label: Highlights, widget: markdown, required: false }
+
+  # ---------------- Education ----------------
+  - name: education
+    label: Education
+    label_singular: School
+    folder: src/content/education
+    extension: md
+    format: frontmatter
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    identifier_field: school
+    summary: "{{school}}"
+    fields:
+      - { name: school, label: School, widget: string }
+      - { name: degree, label: Degree / program, widget: string }
+      - { name: location, label: Location, widget: string, required: false }
+      - { name: start, label: Start (YYYY-MM), widget: string, required: false }
+      - { name: end, label: End (YYYY-MM), widget: string }
+      - { name: order, label: Sort order (higher = first), widget: number, value_type: int, default: 0 }
+      - { name: body, label: Details, widget: markdown, required: false }
+
+  # ---------------- Honors ----------------
+  - name: honors
+    label: Honors & Awards
+    label_singular: Honor
+    folder: src/content/honors
+    extension: md
+    format: frontmatter
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    summary: "{{title}}"
+    fields:
+      - { name: title, label: Title, widget: string }
+      - { name: issuer, label: Issuer, widget: string, required: false }
+      - { name: year, label: Year, widget: string, required: false }
+      - { name: order, label: Sort order (higher = first), widget: number, value_type: int, default: 0 }
+      - { name: body, label: Description, widget: markdown, required: false }
+
+  # ---------------- About (single page) ----------------
+  - name: settings
+    label: About & Profile
+    files:
+      - name: profile
+        label: About me
+        file: src/content/profile/profile.md
+        format: frontmatter
+        fields:
+          - { name: name, label: Name, widget: string }
+          - { name: headline, label: Headline, widget: string }
+          - { name: location, label: Location, widget: string, required: false }
+          - { name: email, label: Public email, widget: string, required: false }
+          - name: links
+            label: Links (GitHub, LinkedIn, Scholar…)
+            widget: list
+            fields:
+              - { name: label, label: Label, widget: string }
+              - { name: url, label: URL, widget: string }
+          - { name: interests, label: Interests, widget: list, required: false }
+          - { name: body, label: Bio, widget: markdown }

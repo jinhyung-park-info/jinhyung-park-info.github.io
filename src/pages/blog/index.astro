@@ -1,0 +1,36 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getPosts, formatDate, slugify } from '../../lib/content';
+
+const posts = await getPosts();
+const tags = [...new Set(posts.flatMap((p) => p.data.tags))].sort();
+const years = [...new Set(posts.map((p) => p.data.date.getUTCFullYear()))];
+---
+
+<Base title="Blog" description="Notes on distributed systems, web data, search, and machine learning.">
+  <h1>Blog</h1>
+  <p class="lead">Notes on what I'm learning — distributed systems, web data, search, and machine learning.</p>
+
+  {tags.length > 0 && (
+    <ul class="tags" style="margin-bottom:8px">
+      {tags.map((t) => <li><a class="tag" href={`/blog/tags/${slugify(t)}`}>{t}</a></li>)}
+    </ul>
+  )}
+
+  {posts.length === 0 && <div class="empty">No posts yet — the first one is coming soon.</div>}
+
+  {years.map((year) => (
+    <section>
+      <h2 class="section-title">{year}</h2>
+      {posts.filter((p) => p.data.date.getUTCFullYear() === year).map((post) => (
+        <div class="post-row">
+          <time datetime={post.data.date.toISOString()}>{formatDate(post.data.date)}</time>
+          <span>
+            <a href={`/blog/${post.id}`}>{post.data.title}</a>
+            {post.data.draft && <span class="pill-draft">draft</span>}
+          </span>
+        </div>
+      ))}
+    </section>
+  ))}
+</Base>

@@ -1,0 +1,36 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { render } from 'astro:content';
+
+interface Props {
+  pub: CollectionEntry<'publications'>;
+  me: string;
+}
+
+const { pub, me } = Astro.props;
+const { title, authors, venue, year, links } = pub.data;
+const { Content } = await render(pub);
+const hasNotes = Boolean(pub.body?.trim());
+
+// Bold your own name in the author list.
+const parts = authors.split(me);
+---
+
+<li class="entry">
+  <p class="entry-title">{title}</p>
+  <div class="entry-sub">
+    {parts.map((part, i) => (
+      <>
+        {part}
+        {i < parts.length - 1 && <span class="me">{me}</span>}
+      </>
+    ))}
+  </div>
+  <div class="entry-sub"><em>{venue}</em>, {year}</div>
+  {links.length > 0 && (
+    <div class="links">
+      {links.map((l) => <a href={l.url} target="_blank" rel="noopener">{l.label}</a>)}
+    </div>
+  )}
+  {hasNotes && <div class="entry-body prose"><Content /></div>}
+</li>

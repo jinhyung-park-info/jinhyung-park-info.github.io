@@ -1,0 +1,22 @@
+---
+import Base from '../layouts/Base.astro';
+import Publication from '../components/Publication.astro';
+import { getProfile, getPublications } from '../lib/content';
+
+const profile = await getProfile();
+const pubs = await getPublications();
+const years = [...new Set(pubs.map((p) => p.data.year))];
+---
+
+<Base title="Publications" description="Research papers and publications.">
+  <h1>Publications</h1>
+  {pubs.length === 0 && <div class="empty">No publications yet.</div>}
+  {years.map((year) => (
+    <section>
+      <h2 class="section-title">{year}</h2>
+      <ul class="entry-list">
+        {pubs.filter((p) => p.data.year === year).map((pub) => <Publication pub={pub} me={profile.data.name} />)}
+      </ul>
+    </section>
+  ))}
+</Base>

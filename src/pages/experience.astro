@@ -1,0 +1,91 @@
+---
+import { getCollection, render } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import { byOrder, range } from '../lib/content';
+
+const experience = byOrder(await getCollection('experience'));
+const education = byOrder(await getCollection('education'));
+const honors = byOrder(await getCollection('honors'));
+
+const groups = [
+  { key: 'work', label: 'Work' },
+  { key: 'research', label: 'Research' },
+  { key: 'mentorship', label: 'Teaching & Mentorship' },
+] as const;
+
+const rendered = new Map(
+  await Promise.all([...experience, ...education, ...honors].map(async (e) => [e.id + e.collection, (await render(e)).Content] as const)),
+);
+const body = (e: { id: string; collection: string; body?: string }) =>
+  e.body?.trim() ? rendered.get(e.id + e.collection) : undefined;
+---
+
+<Base title="Experience" description="Work experience, research, education, and honors.">
+  <h1>Experience</h1>
+
+  {groups.map(({ key, label }) => {
+    const items = experience.filter((e) => e.data.category === key);
+    return items.length > 0 && (
+      <section>
+        <h2 class="section-title">{label}</h2>
+        <ul class="entry-list">
+          {items.map((e) => {
+            const Body = body(e);
+            return (
+              <li class="entry">
+                <div class="entry-head">
+                  <p class="entry-title">{e.data.organization}</p>
+                  <span class="entry-meta">{range(e.data.start, e.data.end)}</span>
+                </div>
+                <div class="entry-sub">{e.data.role}{e.data.location && ` · ${e.data.location}`}</div>
+                {Body && <div class="entry-body"><Body /></div>}
+              </li>
+            );
+          })}
+        </ul>
+      </section>
+    );
+  })}
+
+  {education.length > 0 && (
+    <section>
+      <h2 class="section-title">Education</h2>
+      <ul class="entry-list">
+        {education.map((e) => {
+          const Body = body(e);
+          return (
+            <li class="entry">
+              <div class="entry-head">
+                <p class="entry-title">{e.data.school}</p>
+                <span class="entry-meta">{range(e.data.start, e.data.end)}</span>
+              </div>
+              <div class="entry-sub">{e.data.degree}{e.data.location && ` · ${e.data.location}`}</div>
+              {Body && <div class="entry-body muted"><Body /></div>}
+            </li>
+          );
+        })}
+      </ul>
+    </section>
+  )}
+
+  {honors.length > 0 && (
+    <section>
+      <h2 class="section-title">Honors & Awards</h2>
+      <ul class="entry-list">
+        {honors.map((h) => {
+          const Body = body(h);
+          return (
+            <li class="entry">
+              <div class="entry-head">
+                <p class="entry-title">{h.data.title}</p>
+                {h.data.year && <span class="entry-meta">{h.data.year}</span>}
+              </div>
+              {h.data.issuer && <div class="entry-sub">{h.data.issuer}</div>}
+              {Body && <div class="entry-body muted"><Body /></div>}
+            </li>
+          );
+        })}
+      </ul>
+    </section>
+  )}
+</Base>

@@ -1,0 +1,33 @@
+---
+import 'katex/dist/katex.min.css';
+import { render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { getProjects } from '../../lib/content';
+
+export async function getStaticPaths() {
+  const projects = await getProjects();
+  return projects.map((project) => ({ params: { id: project.id }, props: { project } }));
+}
+
+const { project } = Astro.props;
+const { Content } = await render(project);
+const { title, summary, period, context, tags, links } = project.data;
+---
+
+<Base title={title} description={summary}>
+  <article>
+    <header class="post-header">
+      <a class="back" href="/projects">← Projects</a>
+      <h1>{title}</h1>
+      <p class="lead">{summary}</p>
+      {(context || period) && <p class="faint small">{[context, period].filter(Boolean).join(' · ')}</p>}
+      {links.length > 0 && (
+        <div class="links">{links.map((l) => <a href={l.url} target="_blank" rel="noopener">{l.label}</a>)}</div>
+      )}
+      {tags.length > 0 && <ul class="tags">{tags.map((t) => <li class="tag">{t}</li>)}</ul>}
+    </header>
+    <div class="prose">
+      <Content />
+    </div>
+  </article>
+</Base>
